@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cbea-98bb-57dd-ed76" revision="3" gameSystemId="872b-3a0a-4811-6b90" gameSystemRevision="1" battleScribeVersion="1.15" name="Karist Enclave" books="Battle for Zycanthus Rulebook" authorName="Marten" authorContact="medgebattlescribe@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cbea-98bb-57dd-ed76" revision="5" gameSystemId="872b-3a0a-4811-6b90" gameSystemRevision="1" battleScribeVersion="1.15" name="Karist Enclave" books="Battle for Zycanthus Rulebook" authorName="Marten" authorContact="medgebattlescribe@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="5111-f03e-2e20-d287" name="Angel Minnow Pack" points="0.0" categoryId="1d60-40e2-e3fc-fb22" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="121">
       <entries>
@@ -178,32 +178,491 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         </link>
       </links>
     </entry>
-    <entry id="50a6-2733-a817-33e8" name="Karist Trooper Assault Squad" points="0.0" categoryId="e835-88f5-649f-0cd2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="120">
+    <entry id="0c19-55a0-a61c-7db2" name="Karist Praetorians" points="0.0" categoryId="e835-88f5-649f-0cd2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Karist Enclave faction bo" page="13">
       <entries/>
       <entryGroups>
-        <entryGroup id="d607-140c-88d7-2406" name="Karist Trooper unit" defaultEntryId="257c-2337-c16c-bde3" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="4105-4d41-5024-2630" name="Troopers" defaultEntryId="bac2-23f8-e76b-7ce0" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="7a62-6bdb-0579-7cb2" name="Squad composition" minSelections="2" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="fa83-9f48-9c77-64db" name="Praetorian Tetrarch" points="5.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups>
-                <entryGroup id="25c8-537c-8a5a-ce10" name="Troopers with special weapons" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="a6cf-336c-6082-3859" name="Main weapon options" defaultEntryId="d863-46d7-dc7d-4c37" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries>
+                    <entry id="8569-0d51-fc91-0af3" name="Cybel Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Karist Enclave faction bo" page="20">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles>
+                        <profile id="05e3-f999-e393-d8c2" profileTypeId="9ea8-02e2-6b56-fe99" name="Cybel Blade" hidden="false">
+                          <characteristics>
+                            <characteristic characteristicId="3376-f49f-c453-efbd" name="RNG" value="CQ"/>
+                            <characteristic characteristicId="33c7-f329-1730-3a25" name="SHO" value="(EVS+MAS+FOR)/2"/>
+                            <characteristic characteristicId="fad2-e5a6-50be-59fc" name="PEN" value="5"/>
+                            <characteristic characteristicId="bd33-2c94-8b54-1e30" name="DAM" value="1"/>
+                            <characteristic characteristicId="7562-47bc-c7a3-63ab" name="Special" value="Explosive (6+), Melee"/>
+                          </characteristics>
+                          <modifiers/>
+                        </profile>
+                      </profiles>
+                      <links/>
+                    </entry>
+                    <entry id="05ad-5d78-ffe3-6a79" name="Cybel Glaive" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Karist Enclave faction book" page="18">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers>
+                        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions>
+                            <condition parentId="0c19-55a0-a61c-7db2" childId="7354-2467-4055-659f" field="selections" type="equal to" value="2.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                      <rules>
+                        <rule id="7ce7-b915-ef46-855f" name="Glaive Field" hidden="false" book="The Karist Enclave faction book" page="18">
+                          <description>If a model with a Cybel Glaive does not fire during its main action, then once that main action is complete and as long as the unit is not on the move, the model gains the Field (1) ability, or adds +1 to any other Field ability the unit might otherwise have (including one generated by another Cybel Glaive). This ability lasts only until the unit next activates or if the model fires defensively before that.</description>
+                          <modifiers/>
+                        </rule>
+                      </rules>
+                      <profiles>
+                        <profile id="0943-cf8e-33ec-1eea" profileTypeId="9ea8-02e2-6b56-fe99" name="Cybel Glaive (CQ)" hidden="false">
+                          <characteristics>
+                            <characteristic characteristicId="3376-f49f-c453-efbd" name="RNG" value="CQ"/>
+                            <characteristic characteristicId="33c7-f329-1730-3a25" name="SHO" value="(EVS+MAS+FOR)/2, -1"/>
+                            <characteristic characteristicId="fad2-e5a6-50be-59fc" name="PEN" value="7"/>
+                            <characteristic characteristicId="bd33-2c94-8b54-1e30" name="DAM" value="2"/>
+                            <characteristic characteristicId="7562-47bc-c7a3-63ab" name="Special" value=" Explosive (6+), Glaive Field, Heavy, Melee"/>
+                          </characteristics>
+                          <modifiers/>
+                        </profile>
+                        <profile id="0369-55aa-5576-b20e" profileTypeId="9ea8-02e2-6b56-fe99" name="Cybel Glaive (Ranged)" hidden="false">
+                          <characteristics>
+                            <characteristic characteristicId="3376-f49f-c453-efbd" name="RNG" value="12&quot;"/>
+                            <characteristic characteristicId="33c7-f329-1730-3a25" name="SHO" value="1+LB"/>
+                            <characteristic characteristicId="fad2-e5a6-50be-59fc" name="PEN" value="3"/>
+                            <characteristic characteristicId="bd33-2c94-8b54-1e30" name="DAM" value="1"/>
+                            <characteristic characteristicId="7562-47bc-c7a3-63ab" name="Special" value="AoE (LB), Explosive (6+), Glaive Field, Short Ranged"/>
+                          </characteristics>
+                          <modifiers/>
+                        </profile>
+                      </profiles>
+                      <links/>
+                    </entry>
+                    <entry id="0917-f337-cdd5-f305" name="Radwave Emitter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="126">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers>
+                        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions>
+                            <condition parentId="0c19-55a0-a61c-7db2" childId="7354-2467-4055-659f" field="selections" type="equal to" value="2.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                      <rules/>
+                      <profiles>
+                        <profile id="b6d9-4a00-ff7e-5cc1" profileTypeId="9ea8-02e2-6b56-fe99" name="Radwave Emitter" hidden="false" book="Rulebook" page="126">
+                          <characteristics>
+                            <characteristic characteristicId="3376-f49f-c453-efbd" name="RNG" value="8&quot;"/>
+                            <characteristic characteristicId="33c7-f329-1730-3a25" name="SHO" value="2+SPR"/>
+                            <characteristic characteristicId="fad2-e5a6-50be-59fc" name="PEN" value="4+"/>
+                            <characteristic characteristicId="bd33-2c94-8b54-1e30" name="DAM" value="1"/>
+                            <characteristic characteristicId="7562-47bc-c7a3-63ab" name="Special" value="AoE (SPR), F-PEN (4+)"/>
+                          </characteristics>
+                          <modifiers/>
+                        </profile>
+                      </profiles>
+                      <links/>
+                    </entry>
+                    <entry id="88b9-98dc-f077-0bff" name="Ripper Energy Grenade Launcher" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="126">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers>
+                        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions>
+                            <condition parentId="0c19-55a0-a61c-7db2" childId="7354-2467-4055-659f" field="selections" type="equal to" value="2.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                      <rules/>
+                      <profiles>
+                        <profile id="af7e-35ba-2ef3-0cf3" profileTypeId="9ea8-02e2-6b56-fe99" name="Ripper Energy Grenade Launcher" hidden="false" book="Rulebook" page="126">
+                          <characteristics>
+                            <characteristic characteristicId="3376-f49f-c453-efbd" name="RNG" value="18&quot;"/>
+                            <characteristic characteristicId="33c7-f329-1730-3a25" name="SHO" value="1+SB"/>
+                            <characteristic characteristicId="fad2-e5a6-50be-59fc" name="PEN" value="3"/>
+                            <characteristic characteristicId="bd33-2c94-8b54-1e30" name="DAM" value="1"/>
+                            <characteristic characteristicId="7562-47bc-c7a3-63ab" name="Special" value="AoE (SB), Explosive (6+), Ignore Cover, Suppress (1)"/>
+                          </characteristics>
+                          <modifiers/>
+                        </profile>
+                      </profiles>
+                      <links/>
+                    </entry>
+                  </entries>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links>
+                    <link id="d863-46d7-dc7d-4c37" targetId="54ba-c178-602c-48fb" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="05c6-e5e6-1a86-4837" targetId="942f-da11-dbb1-1af2" linkType="entry">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entryGroup>
+                <entryGroup id="50ad-c025-e28d-182c" name="Sidearm options" defaultEntryId="b08b-c226-42a6-9a7d" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
                   <links>
-                    <link id="7774-fa1d-d59e-a16d" targetId="e474-deae-5f13-8dd8" linkType="entry">
+                    <link id="badf-a82b-13a5-6ea0" targetId="5449-a6f8-2d75-975f" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="b08b-c226-42a6-9a7d" targetId="9df2-4255-40e6-f5bb" linkType="entry">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="dcef-957b-a88a-c808" profileTypeId="ab67-d501-31db-cfeb" name="Praetorian Tetrarch" hidden="false" book="The Karist Enclave faction book" page="13">
+                  <characteristics>
+                    <characteristic characteristicId="105e-ca6f-41c5-7a69" name="MV" value="6"/>
+                    <characteristic characteristicId="4ef6-6202-2d81-67e2" name="EVS" value="3"/>
+                    <characteristic characteristicId="a73d-b1d9-cb27-ac65" name="SKL" value="5"/>
+                    <characteristic characteristicId="e34e-8baf-b761-6b17" name="AV" value="4"/>
+                    <characteristic characteristicId="34e2-54d7-20cc-d02d" name="MAS" value="2"/>
+                    <characteristic characteristicId="7c96-d8ce-ea5e-a562" name="FOR" value="1"/>
+                    <characteristic characteristicId="e567-47db-a81f-8cbd" name="WP" value="4"/>
+                    <characteristic characteristicId="6f62-720f-8c68-d543" name="Model type" value="Infantry (Human, Squad Leader)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="ff6a-7f53-9f15-9e2b" targetId="662f-11c5-7cee-4f73" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="4c48-a529-25e5-e97f" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups>
+            <entryGroup id="3c53-637c-242c-07e9" name="Basic Praetorians" defaultEntryId="7836-39c9-ca43-521f" minSelections="1" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="49e3-639a-3101-b58d" name="Praetorian w/ Pulse Carbine &amp; Cybel Blade" points="4.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="cc29-40a0-0c50-adbb" targetId="662f-11c5-7cee-4f73" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="f413-dec3-874c-7e77" targetId="045f-dd6f-2796-6220" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="b89f-d1c9-deaa-4ded" targetId="77af-c7d0-8baa-8a09" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="1a87-39f8-3628-f12c" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="f501-3fd4-6e62-e36b" targetId="e40e-11c8-c128-c57c" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="7836-39c9-ca43-521f" name="Praetorian w/ Pulse Carbine &amp; Pulse Pistol" points="4.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="9929-3420-ca17-bdf9" targetId="662f-11c5-7cee-4f73" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="e490-5652-4a9a-5e2d" targetId="77af-c7d0-8baa-8a09" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="5911-9eb7-e0a7-1ce5" targetId="3215-fdc1-2596-f104" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="ccc0-c6bc-a789-a0f2" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="8bef-6432-3cf0-f616" targetId="e40e-11c8-c128-c57c" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="e668-fbfe-016b-1a03" name="Praetorian w/ Pulse Pistol &amp; Cybel Blade" points="4.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="c925-e669-6dbb-f4ab" targetId="3215-fdc1-2596-f104" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="848c-0a2a-181e-89dd" targetId="045f-dd6f-2796-6220" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="789c-c35f-fcac-0ff3" targetId="662f-11c5-7cee-4f73" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="3dd3-7585-9353-14b7" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="9135-58a3-371a-24e2" targetId="e40e-11c8-c128-c57c" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="7a62-6bdb-0579-7cb2" incrementChildId="7354-2467-4055-659f" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="decrement" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="7a62-6bdb-0579-7cb2" incrementChildId="7354-2467-4055-659f" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <links/>
+            </entryGroup>
+            <entryGroup id="7354-2467-4055-659f" name="Max. 2 special weapons in squad" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="0e0d-2f56-18a7-9447" name="Praetorian w/ Cybel Glaive &amp; Cybel Blade" points="4.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="f83b-9275-6316-073d" targetId="662f-11c5-7cee-4f73" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="6e9e-1afa-ed1a-4d13" targetId="045f-dd6f-2796-6220" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="7a46-c162-f7ab-4783" targetId="463a-4838-9dd9-7253" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="2d44-707b-39c8-123a" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="30b4-6507-c446-9084" targetId="e40e-11c8-c128-c57c" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="c8f1-b0cf-2a05-3c62" name="Praetorian w/ Cybel Glaive &amp; Pulse Pistol" points="4.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="513c-1f74-433b-5484" targetId="662f-11c5-7cee-4f73" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="7c66-2151-d7a2-100b" targetId="3215-fdc1-2596-f104" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="877a-8ec6-fd30-46a1" targetId="463a-4838-9dd9-7253" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="0358-3520-18d6-6c2b" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="156c-aba6-0000-b87b" targetId="e40e-11c8-c128-c57c" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="9c62-fc3a-9519-6851" name="Praetorian w/ Radwave Emitter &amp; Cybel Blade" points="4.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="b5e5-1cbd-7ae7-bcd5" targetId="662f-11c5-7cee-4f73" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="cca4-0607-c2cd-74c8" targetId="045f-dd6f-2796-6220" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="d41d-b091-2d04-1e08" targetId="bd86-4064-67b6-ac2f" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="4872-468a-17bb-b262" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="2db3-247f-3f53-4eb5" targetId="e40e-11c8-c128-c57c" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="ca7b-968f-26c4-82cd" name="Praetorian w/ Radwave Emitter &amp; Pulse Pistol" points="4.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="7ecf-bcd6-5790-3a33" targetId="662f-11c5-7cee-4f73" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="913b-585f-9d52-c5a8" targetId="3215-fdc1-2596-f104" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="6a41-f744-2dc4-4180" targetId="bd86-4064-67b6-ac2f" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="b0af-a3e6-134d-d1b7" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="69bc-ce1d-b25b-c0c3" targetId="e40e-11c8-c128-c57c" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="6496-1e5e-68c7-fce7" name="Praetorian w/ Ripper Grenade Launcher &amp; Cybel Blade" points="4.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="349c-981d-df04-30ae" targetId="662f-11c5-7cee-4f73" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="15b5-4ad5-fc8c-710d" targetId="045f-dd6f-2796-6220" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="b5c1-8dbb-a0c6-5641" targetId="6552-53f5-360d-a1e1" linkType="entry">
                       <modifiers>
-                        <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                        <modifier type="set" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                           <conditions/>
                           <conditionGroups/>
                         </modifier>
                       </modifiers>
                     </link>
-                    <link id="0ced-5315-e597-1869" targetId="314d-b5cf-c5f0-25b2" linkType="entry">
+                    <link id="d2f5-b235-5f41-1e7e" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="5b81-6236-e5f7-fab8" targetId="e40e-11c8-c128-c57c" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="953f-ba94-46dc-d8fd" name="Praetorian w/ Ripper Grenade Launcher &amp; Pulse Pistol" points="4.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="46ae-2bd9-bf17-54bb" targetId="662f-11c5-7cee-4f73" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="c376-66fc-6e86-0e97" targetId="3215-fdc1-2596-f104" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="a03a-0c35-adb0-a307" targetId="6552-53f5-360d-a1e1" linkType="entry">
                       <modifiers>
-                        <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                        <modifier type="set" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                           <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </link>
+                    <link id="11fe-81f3-bf38-1362" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="26f5-a63f-b0b7-782e" targetId="e40e-11c8-c128-c57c" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="d962-75a3-5a19-de23" name="Bodyguard (3+)" hidden="false" book="Rulebook" page="81">
+          <description>(squad ability) When suffering Precision Kill penetrations, the unit may roll a D6. On 3+, the penetrations are applied to bodyguard models first, unless the attacks are against the unit&apos;s rear arc.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="50a6-2733-a817-33e8" name="Karist Trooper Assault Squad" points="0.0" categoryId="e835-88f5-649f-0cd2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="120">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="741b-7be4-6b4a-ae2b" name="Karist Trooper Assault Squad composition" defaultEntryId="23d5-7632-3797-4a54" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="23d5-7632-3797-4a54" name="Karist Trooper Quintarch" points="4.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="120">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="3375-d83a-e4ab-0740" name="Second weapon selection" defaultEntryId="2684-f733-be4c-82de" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links>
+                    <link id="2684-f733-be4c-82de" targetId="9df2-4255-40e6-f5bb" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="7001-1f05-d697-1427" targetId="5449-a6f8-2d75-975f" linkType="entry">
+                      <modifiers>
+                        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions>
+                            <condition parentId="23d5-7632-3797-4a54" childId="21f7-534c-817f-3578" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </link>
+                  </links>
+                </entryGroup>
+                <entryGroup id="f72a-f864-0eca-dfb9" name="First weapon selection" defaultEntryId="e682-bd2c-7b5d-7430" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links>
+                    <link id="e682-bd2c-7b5d-7430" targetId="54ba-c178-602c-48fb" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="e61d-e840-e650-be6e" targetId="942f-da11-dbb1-1af2" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="21f7-534c-817f-3578" targetId="5449-a6f8-2d75-975f" linkType="entry">
+                      <modifiers>
+                        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions>
+                            <condition parentId="23d5-7632-3797-4a54" childId="7001-1f05-d697-1427" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
                           <conditionGroups/>
                         </modifier>
                       </modifiers>
@@ -212,24 +671,200 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
                 </entryGroup>
               </entryGroups>
               <modifiers/>
+              <rules/>
+              <profiles/>
               <links>
-                <link id="bac2-23f8-e76b-7ce0" targetId="91af-7842-0eee-0c67" linkType="entry">
-                  <modifiers>
-                    <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
+                <link id="01af-596d-0612-db27" targetId="439e-1552-e12d-7544" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="48a9-9d22-6825-f0c9" targetId="662f-11c5-7cee-4f73" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="c051-7113-b482-ed58" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
+                  <modifiers/>
                 </link>
               </links>
+            </entry>
+          </entries>
+          <entryGroups>
+            <entryGroup id="294a-0d54-25bb-ee57" name="Troopers" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="f5d7-d1be-b5c2-606f" name="Max. 2 Troopers with special weapons" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries>
+                    <entry id="adfe-654c-1d74-5e3f" name="Karist Trooper w/ Radwave Emitter &amp; Pulse Pistol" points="3.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="120">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="f18e-3082-b07b-6be9" targetId="8b4b-71a3-e840-d20c" linkType="profile">
+                          <modifiers/>
+                        </link>
+                        <link id="d636-5a6b-68b0-46ae" targetId="662f-11c5-7cee-4f73" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="8858-065b-51af-c564" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="011c-a342-e1c6-2288" targetId="3215-fdc1-2596-f104" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="f3a9-795a-7a14-d7ae" targetId="bd86-4064-67b6-ac2f" linkType="entry">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                    <entry id="c107-f014-9757-12b3" name="Karist Trooper w/ Ripper Grenade Launcher &amp; Pulse Pistol" points="5.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="120">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="c539-d45a-4784-b3d5" targetId="8b4b-71a3-e840-d20c" linkType="profile">
+                          <modifiers/>
+                        </link>
+                        <link id="fd1f-95dd-4c89-4230" targetId="662f-11c5-7cee-4f73" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="338f-14b0-a431-bf58" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="3127-3598-8ee8-341f" targetId="3215-fdc1-2596-f104" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="f639-472f-5cdd-0517" targetId="6552-53f5-360d-a1e1" linkType="entry">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                    <entry id="b47b-fad2-6124-f6b4" name="Karist Trooper w/ Radwave Emitter &amp; Cybel Blade" points="3.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="120">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="f7b9-b631-2f65-7bcf" targetId="8b4b-71a3-e840-d20c" linkType="profile">
+                          <modifiers/>
+                        </link>
+                        <link id="5d6f-a3c8-6036-bf90" targetId="662f-11c5-7cee-4f73" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="1387-b598-4d4a-720d" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="8a6c-c4a7-b6a3-e702" targetId="045f-dd6f-2796-6220" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="cea7-ccdb-e013-94d8" targetId="bd86-4064-67b6-ac2f" linkType="entry">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                    <entry id="969d-9eb5-27e9-9115" name="Karist Trooper w/ Ripper Grenade Launcher &amp; Cybel Blade" points="5.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="120">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="79bb-1aa8-37b6-b38e" targetId="8b4b-71a3-e840-d20c" linkType="profile">
+                          <modifiers/>
+                        </link>
+                        <link id="0407-7363-fc58-948a" targetId="662f-11c5-7cee-4f73" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="7395-10a5-6d5e-78a8" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="3145-72a1-9bcf-5909" targetId="045f-dd6f-2796-6220" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="5396-114e-6f32-cc64" targetId="6552-53f5-360d-a1e1" linkType="entry">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                  </entries>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+                <entryGroup id="455a-42f7-342c-772e" name="Basic Troopers" defaultEntryId="9b81-0d1b-9c08-7b8d" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries>
+                    <entry id="9b81-0d1b-9c08-7b8d" name="Karist Trooper w/ Pulse Carbine &amp; Pulse Pistol" points="3.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="120">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers>
+                        <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="184e-a922-de60-de4c" targetId="8b4b-71a3-e840-d20c" linkType="profile">
+                          <modifiers/>
+                        </link>
+                        <link id="3080-f747-501c-09db" targetId="662f-11c5-7cee-4f73" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="4380-045c-5387-24f8" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="4370-cdf5-0630-4ca6" targetId="77af-c7d0-8baa-8a09" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="30ec-2b74-6958-72c2" targetId="3215-fdc1-2596-f104" linkType="entry">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                    <entry id="80d5-fc8e-fab7-87e3" name="Karist Trooper w/ Pulse Carbine &amp; Cybel Blade" points="3.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="120">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers>
+                        <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="f4c3-b662-3be6-22ac" targetId="8b4b-71a3-e840-d20c" linkType="profile">
+                          <modifiers/>
+                        </link>
+                        <link id="58f2-1295-90f2-4cae" targetId="662f-11c5-7cee-4f73" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="f923-e708-207d-d737" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="f0eb-243b-1419-45ca" targetId="77af-c7d0-8baa-8a09" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="07c1-3336-3c0f-3a31" targetId="045f-dd6f-2796-6220" linkType="entry">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                  </entries>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <links/>
             </entryGroup>
           </entryGroups>
           <modifiers/>
-          <links>
-            <link id="257c-2337-c16c-bde3" targetId="b519-c553-4e17-a0ac" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entryGroup>
       </entryGroups>
       <modifiers/>
@@ -267,13 +902,86 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
                 </link>
               </links>
             </entryGroup>
+            <entryGroup id="20cc-af11-cb58-6e9a" name="Quintarch" defaultEntryId="564f-b188-4b2c-31e8" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="564f-b188-4b2c-31e8" name="Karist Trooper Quintarch w/ Pulse Carbine" points="4.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="120">
+                  <entries/>
+                  <entryGroups>
+                    <entryGroup id="9877-f718-944a-5e7e" name="Pistol or Blade" defaultEntryId="26ce-4a5f-bc14-5efc" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <links>
+                        <link id="26ce-4a5f-bc14-5efc" targetId="9df2-4255-40e6-f5bb" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="c72a-79eb-e7f5-bd9c" targetId="5449-a6f8-2d75-975f" linkType="entry">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entryGroup>
+                  </entryGroups>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="66d6-86fa-4100-94a4" targetId="439e-1552-e12d-7544" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="b422-3c88-164e-61e1" targetId="662f-11c5-7cee-4f73" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="12c3-f246-b15a-792a" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="aa19-803b-7193-a0a6" targetId="77af-c7d0-8baa-8a09" linkType="entry">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="a70b-af89-56cd-d118" name="Karist Trooper Quintarch w/ Pulse Carbine Mk2" points="5.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="120">
+                  <entries/>
+                  <entryGroups>
+                    <entryGroup id="fa9b-919f-71e3-5057" name="Pistol or Blade" defaultEntryId="98c5-7ecc-e6cd-a680" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <links>
+                        <link id="98c5-7ecc-e6cd-a680" targetId="9df2-4255-40e6-f5bb" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="538a-1b16-3ddd-d998" targetId="5449-a6f8-2d75-975f" linkType="entry">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entryGroup>
+                  </entryGroups>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="0432-0ecb-7a08-4fd3" targetId="439e-1552-e12d-7544" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="26bd-aa2d-4cb7-0db8" targetId="662f-11c5-7cee-4f73" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="66e9-5f7f-7f8b-a9eb" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="354e-dd03-8c89-4c26" targetId="ba27-7bd3-8beb-b2df" linkType="entry">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
           </entryGroups>
           <modifiers/>
-          <links>
-            <link id="7ff3-d715-cb5e-f440" targetId="b519-c553-4e17-a0ac" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entryGroup>
       </entryGroups>
       <modifiers/>
@@ -425,17 +1133,18 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         <link id="d13d-124a-f2ae-1154" targetId="2bb5-4c9f-8cfb-dcfb" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="7b2a-3af4-d1d3-d4f5" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="d6c9-4f1a-e17c-5430" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="bd86-4064-67b6-ac2f" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="6552-53f5-360d-a1e1" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="cbe9-57c9-65c0-455d" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="85f2-0fd6-ba75-9735" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="0917-f337-cdd5-f305" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="cbe9-57c9-65c0-455d" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="7b2a-3af4-d1d3-d4f5" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="85f2-0fd6-ba75-9735" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="6552-53f5-360d-a1e1" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="d6c9-4f1a-e17c-5430" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="bd86-4064-67b6-ac2f" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -445,17 +1154,20 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         <link id="b09a-f175-7e9e-d539" targetId="1b9f-0cf8-2dfb-8d50" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="a18a-df98-6074-4533" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="3215-fdc1-2596-f104" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="ba27-7bd3-8beb-b2df" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="bd86-4064-67b6-ac2f" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="e8e0-7054-54f9-196d" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="21df-3999-ad14-7c5f" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="942f-da11-dbb1-1af2" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="ba27-7bd3-8beb-b2df" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="bd86-4064-67b6-ac2f" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="e8e0-7054-54f9-196d" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="3215-fdc1-2596-f104" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="a18a-df98-6074-4533" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="21df-3999-ad14-7c5f" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="0917-f337-cdd5-f305" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="463a-4838-9dd9-7253" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -475,15 +1187,16 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         <link id="c726-33a5-2960-fbcf" targetId="b87d-0b46-5bc8-29c3" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="a18a-df98-6074-4533" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="3215-fdc1-2596-f104" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="21df-3999-ad14-7c5f" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="e8e0-7054-54f9-196d" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="9df2-4255-40e6-f5bb" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="e8e0-7054-54f9-196d" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="3215-fdc1-2596-f104" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="a18a-df98-6074-4533" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="21df-3999-ad14-7c5f" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -493,13 +1206,13 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         <link id="8b19-8d2d-c384-bced" targetId="f89d-fa21-e52d-8011" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="d6c9-4f1a-e17c-5430" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="0092-d819-20a5-cad0" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="d6c9-4f1a-e17c-5430" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="0092-d819-20a5-cad0" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -509,13 +1222,14 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         <link id="2110-fa66-10ed-20d7" targetId="0538-809a-c071-cc7f" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="d6c9-4f1a-e17c-5430" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="bd86-4064-67b6-ac2f" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="0917-f337-cdd5-f305" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="d6c9-4f1a-e17c-5430" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="bd86-4064-67b6-ac2f" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -525,15 +1239,16 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         <link id="f65d-42fa-ae88-403a" targetId="e001-1add-05b5-2e4c" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="0092-d819-20a5-cad0" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="a18a-df98-6074-4533" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="6552-53f5-360d-a1e1" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="85f2-0fd6-ba75-9735" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="88b9-98dc-f077-0bff" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="6552-53f5-360d-a1e1" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="0092-d819-20a5-cad0" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="85f2-0fd6-ba75-9735" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="a18a-df98-6074-4533" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -543,22 +1258,30 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         <link id="d5d0-1a28-0cb2-cead" targetId="a1bd-81d7-4121-aa3f" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="77af-c7d0-8baa-8a09" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="ba27-7bd3-8beb-b2df" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="6552-53f5-360d-a1e1" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="cbe9-57c9-65c0-455d" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="479f-085a-0714-5c67" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="545f-060e-81f3-b176" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="4bb9-e1b0-c601-e9c5" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="85f2-0fd6-ba75-9735" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="045f-dd6f-2796-6220" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="21df-3999-ad14-7c5f" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="de7e-5c07-6d44-5a52" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="21df-3999-ad14-7c5f" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="77af-c7d0-8baa-8a09" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="cbe9-57c9-65c0-455d" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="ba27-7bd3-8beb-b2df" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="de7e-5c07-6d44-5a52" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="045f-dd6f-2796-6220" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="85f2-0fd6-ba75-9735" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="545f-060e-81f3-b176" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="4bb9-e1b0-c601-e9c5" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="6552-53f5-360d-a1e1" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="479f-085a-0714-5c67" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="3215-fdc1-2596-f104" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="9df2-4255-40e6-f5bb" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="54ba-c178-602c-48fb" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="942f-da11-dbb1-1af2" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="05ad-5d78-ffe3-6a79" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="8569-0d51-fc91-0af3" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="463a-4838-9dd9-7253" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="5449-a6f8-2d75-975f" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -568,13 +1291,13 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         <link id="994b-5a84-a912-ad80" targetId="4cd2-d2d0-0aab-576f" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="cbe9-57c9-65c0-455d" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="fcfb-7aec-c8bf-f96b" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="fcfb-7aec-c8bf-f96b" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="cbe9-57c9-65c0-455d" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -584,14 +1307,14 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         <link id="302c-f161-5e20-bbc2" targetId="f9e9-59ad-712d-64b8" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="cbe9-57c9-65c0-455d" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="bb7b-0a1b-0459-ef19" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="fcfb-7aec-c8bf-f96b" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="fcfb-7aec-c8bf-f96b" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="bb7b-0a1b-0459-ef19" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="cbe9-57c9-65c0-455d" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -601,13 +1324,13 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         <link id="e22f-e057-8d68-0e63" targetId="db40-373e-70e2-d62c" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="cbe9-57c9-65c0-455d" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="fcfb-7aec-c8bf-f96b" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="cbe9-57c9-65c0-455d" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="fcfb-7aec-c8bf-f96b" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -617,14 +1340,17 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         <link id="7968-d388-e4da-e8dd" targetId="5585-8c9f-b501-d7a9" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="cbe9-57c9-65c0-455d" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="045f-dd6f-2796-6220" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="ba65-e961-c468-31c3" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="05ad-5d78-ffe3-6a79" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="463a-4838-9dd9-7253" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="ba65-e961-c468-31c3" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="cbe9-57c9-65c0-455d" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="045f-dd6f-2796-6220" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="5449-a6f8-2d75-975f" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -634,14 +1360,14 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         <link id="5410-cc19-4c78-9213" targetId="f58a-3bc5-ca91-fe66" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="479f-085a-0714-5c67" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="545f-060e-81f3-b176" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="85f2-0fd6-ba75-9735" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="545f-060e-81f3-b176" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="479f-085a-0714-5c67" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="85f2-0fd6-ba75-9735" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -681,16 +1407,17 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         <link id="0959-3385-8169-f708" targetId="cd89-7499-5cbc-6d92" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="7b2a-3af4-d1d3-d4f5" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="e8ee-270d-001c-8119" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="50a6-2733-a817-33e8" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="6d9c-3c7e-d1d9-a11f" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="bb7b-0a1b-0459-ef19" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="0c19-55a0-a61c-7db2" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="6d9c-3c7e-d1d9-a11f" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="50a6-2733-a817-33e8" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="bb7b-0a1b-0459-ef19" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="e8ee-270d-001c-8119" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="7b2a-3af4-d1d3-d4f5" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -710,10 +1437,17 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         <link id="8e46-8015-3b1d-12dc" targetId="7011-ab19-646e-45ca" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="ba65-e961-c468-31c3" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" childId="05ad-5d78-ffe3-6a79" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="463a-4838-9dd9-7253" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="ba65-e961-c468-31c3" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </link>
@@ -760,10 +1494,16 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         <link id="85d8-13f6-300f-30fd" targetId="a3f9-dbf8-9b7b-2f73" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="fcfb-7aec-c8bf-f96b" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" childId="fcfb-7aec-c8bf-f96b" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="5111-f03e-2e20-d287" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </link>
@@ -790,15 +1530,17 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         <link id="b35e-6633-c27d-2773" targetId="749d-f85c-9090-58f4" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="d6c9-4f1a-e17c-5430" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="0092-d819-20a5-cad0" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="479f-085a-0714-5c67" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="85f2-0fd6-ba75-9735" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="d6c9-4f1a-e17c-5430" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="85f2-0fd6-ba75-9735" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="0092-d819-20a5-cad0" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="479f-085a-0714-5c67" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="6552-53f5-360d-a1e1" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="88b9-98dc-f077-0bff" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -808,10 +1550,16 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         <link id="2d3b-a6df-bd1c-3a44" targetId="d2da-b70f-97c6-e2a8" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="bd86-4064-67b6-ac2f" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" childId="bd86-4064-67b6-ac2f" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="0917-f337-cdd5-f305" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </link>
@@ -822,6 +1570,22 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
                 <condition parentId="roster" childId="de7e-5c07-6d44-5a52" field="selections" type="equal to" value="0.0"/>
               </conditions>
               <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="f6b8-ae4b-f4e6-b831" targetId="376f-255f-fe15-ecfa" linkType="rule">
+          <modifiers>
+            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" childId="463a-4838-9dd9-7253" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="05ad-5d78-ffe3-6a79" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </link>
@@ -866,6 +1630,9 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
             <link id="019e-3099-7b7b-5af9" targetId="a9f3-2db8-0123-3867" linkType="rule">
               <modifiers/>
             </link>
+            <link id="a8c9-f4e6-dece-b3f9" targetId="d5f3-ad86-d0f5-73e4" linkType="entry">
+              <modifiers/>
+            </link>
           </links>
         </entry>
       </entries>
@@ -902,6 +1669,9 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
           <modifiers/>
         </link>
         <link id="0aa5-ac7a-bef2-c855" targetId="21df-3999-ad14-7c5f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ea91-8797-8aee-73c5" targetId="d5f3-ad86-d0f5-73e4" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1037,10 +1807,17 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
               <entryGroups/>
               <modifiers>
                 <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="6d9c-3c7e-d1d9-a11f" childId="3e1d-5687-2a32-42a8" field="selections" type="at least" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition parentId="6d9c-3c7e-d1d9-a11f" childId="5688-b244-de3f-6320" field="selections" type="at least" value="2.0"/>
+                        <condition parentId="6d9c-3c7e-d1d9-a11f" childId="817d-9a3b-8041-4cbf" field="selections" type="equal to" value="0.0"/>
+                        <condition parentId="6d9c-3c7e-d1d9-a11f" childId="817d-9a3b-8041-4cbf" field="selections" type="equal to" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <rules/>
@@ -1090,7 +1867,7 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         </link>
       </links>
     </entry>
-    <entry id="045f-dd6f-2796-6220" name="Cybel Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="127">
+    <entry id="045f-dd6f-2796-6220" name="Cybel Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="Rulebook" page="127">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1100,6 +1877,25 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
           <characteristics>
             <characteristic characteristicId="3376-f49f-c453-efbd" name="RNG" value="CQ"/>
             <characteristic characteristicId="33c7-f329-1730-3a25" name="SHO" value="-"/>
+            <characteristic characteristicId="fad2-e5a6-50be-59fc" name="PEN" value="5"/>
+            <characteristic characteristicId="bd33-2c94-8b54-1e30" name="DAM" value="1"/>
+            <characteristic characteristicId="7562-47bc-c7a3-63ab" name="Special" value="Explosive (6+), Melee"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="5449-a6f8-2d75-975f" name="Cybel Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Karist Enclave faction bo" page="20">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f8b0-7e72-a3ff-a582" profileTypeId="9ea8-02e2-6b56-fe99" name="Cybel Blade" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="3376-f49f-c453-efbd" name="RNG" value="CQ"/>
+            <characteristic characteristicId="33c7-f329-1730-3a25" name="SHO" value="(EVS+MAS+FOR)/2"/>
             <characteristic characteristicId="fad2-e5a6-50be-59fc" name="PEN" value="5"/>
             <characteristic characteristicId="bd33-2c94-8b54-1e30" name="DAM" value="1"/>
             <characteristic characteristicId="7562-47bc-c7a3-63ab" name="Special" value="Explosive (6+), Melee"/>
@@ -1128,6 +1924,40 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
       </profiles>
       <links/>
     </entry>
+    <entry id="463a-4838-9dd9-7253" name="Cybel Glaive" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="The Karist Enclave faction book" page="18">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="4c99-7ff4-24c8-2315" name="Glaive Field" hidden="false" book="The Karist Enclave faction book" page="18">
+          <description>If a model with a Cybel Glaive does not fire during its main action, then once that main action is complete and as long as the unit is not on the move, the model gains the Field (1) ability, or adds +1 to any other Field ability the unit might otherwise have (including one generated by another Cybel Glaive). This ability lasts only until the unit next activates or if the model fires defensively before that.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="f71a-cb87-4a1a-6a91" profileTypeId="9ea8-02e2-6b56-fe99" name="Cybel Glaive (CQ)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="3376-f49f-c453-efbd" name="RNG" value="CQ"/>
+            <characteristic characteristicId="33c7-f329-1730-3a25" name="SHO" value="(EVS+MAS+FOR)/2, -1"/>
+            <characteristic characteristicId="fad2-e5a6-50be-59fc" name="PEN" value="7"/>
+            <characteristic characteristicId="bd33-2c94-8b54-1e30" name="DAM" value="2"/>
+            <characteristic characteristicId="7562-47bc-c7a3-63ab" name="Special" value=" Explosive (6+), Glaive Field, Heavy, Melee"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="ba9b-0494-27fc-157c" profileTypeId="9ea8-02e2-6b56-fe99" name="Cybel Glaive (Ranged)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="3376-f49f-c453-efbd" name="RNG" value="12&quot;"/>
+            <characteristic characteristicId="33c7-f329-1730-3a25" name="SHO" value="1+LB"/>
+            <characteristic characteristicId="fad2-e5a6-50be-59fc" name="PEN" value="3"/>
+            <characteristic characteristicId="bd33-2c94-8b54-1e30" name="DAM" value="1"/>
+            <characteristic characteristicId="7562-47bc-c7a3-63ab" name="Special" value="AoE (LB), Explosive (6+), Glaive Field, Short Ranged"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="ac84-d0f0-4657-e8ee" name="Cybel Maw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="Rulebook" page="127">
       <entries/>
       <entryGroups/>
@@ -1145,6 +1975,22 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
           <modifiers/>
         </profile>
       </profiles>
+      <links/>
+    </entry>
+    <entry id="d5f3-ad86-d0f5-73e4" name="Cybel Mines" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="The Karist Enclave faction book" page="21">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="dbe4-7bd1-ee8d-1885" name="Mine (2D3+1)" hidden="false" book="The Karist Enclave faction book" page="21">
+          <description>When performing an Advance &amp; Fire action, a model equipped with a mine may set it instead of firing a weapon. A set mine is represented by a mine marker (a mine mounted on a 25mm circular base) and must be placed on the table touching the model who set it. A mine marker is not activated until the entire unit that placed it ends an action more than 6” away from it, or when that unit is later completely destroyed. A mine marker cannot be placed in impassable ground (including inside of or on top of a building), on another model, or on an objective marker. 
+
+Minefield
+A minefield is the area 6” around an active mine marker. A unit that moves through a minefield, including starting or ending their move there, triggers the mine and gains a number of STs equal to the mine’s ability value (X), after which the mine marker is removed from the game. A unit that can ignore dangerous ground ignores a minefield in exactly the same way. For example, a unit that moves entirely over a minefield with a dynamic move would not trigger it, but one that starts or ends their dynamic move within the minefield would.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
       <links/>
     </entry>
     <entry id="479f-085a-0714-5c67" name="Hellstorm Energy Mortar" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="Rulebook" page="126">
@@ -1273,6 +2119,18 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         </link>
       </links>
     </entry>
+    <entry id="54ba-c178-602c-48fb" name="Pulse Carbine" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="125">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="7146-123b-01b5-da45" targetId="aaf8-6475-1933-381f" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="ba27-7bd3-8beb-b2df" name="Pulse Carbine Mk2" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="Rulebook" page="125">
       <entries/>
       <entryGroups/>
@@ -1296,6 +2154,29 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         </link>
       </links>
     </entry>
+    <entry id="942f-da11-dbb1-1af2" name="Pulse Carbine Mk2" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="125">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="57bf-0226-9b16-074e" profileTypeId="9ea8-02e2-6b56-fe99" name="Pulse Carbine - Charged Shot (Mk2 only)" hidden="false" book="Rulebook" page="125">
+          <characteristics>
+            <characteristic characteristicId="3376-f49f-c453-efbd" name="RNG" value="12&quot;"/>
+            <characteristic characteristicId="33c7-f329-1730-3a25" name="SHO" value="2"/>
+            <characteristic characteristicId="fad2-e5a6-50be-59fc" name="PEN" value="5"/>
+            <characteristic characteristicId="bd33-2c94-8b54-1e30" name="DAM" value="2"/>
+            <characteristic characteristicId="7562-47bc-c7a3-63ab" name="Special" value="Explosive (6+), Short Ranged (+1)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="7927-f5a0-e3d5-047e" targetId="aaf8-6475-1933-381f" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="3215-fdc1-2596-f104" name="Pulse Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="Rulebook" page="125">
       <entries/>
       <entryGroups/>
@@ -1303,6 +2184,25 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
       <rules/>
       <profiles>
         <profile id="a114-5157-7c25-03a5" profileTypeId="9ea8-02e2-6b56-fe99" name="Pulse Pistol" hidden="false" book="Rulebook" page="125">
+          <characteristics>
+            <characteristic characteristicId="3376-f49f-c453-efbd" name="RNG" value="12&quot;"/>
+            <characteristic characteristicId="33c7-f329-1730-3a25" name="SHO" value="2"/>
+            <characteristic characteristicId="fad2-e5a6-50be-59fc" name="PEN" value="3"/>
+            <characteristic characteristicId="bd33-2c94-8b54-1e30" name="DAM" value="1"/>
+            <characteristic characteristicId="7562-47bc-c7a3-63ab" name="Special" value="Explosive (6+), Pistol"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="9df2-4255-40e6-f5bb" name="Pulse Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="125">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="27c4-0ad1-20db-e188" profileTypeId="9ea8-02e2-6b56-fe99" name="Pulse Pistol" hidden="false" book="Rulebook" page="125">
           <characteristics>
             <characteristic characteristicId="3376-f49f-c453-efbd" name="RNG" value="12&quot;"/>
             <characteristic characteristicId="33c7-f329-1730-3a25" name="SHO" value="2"/>
@@ -1411,63 +2311,7 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
       <links/>
     </entry>
   </sharedEntries>
-  <sharedEntryGroups>
-    <entryGroup id="b519-c553-4e17-a0ac" name="Quintarch" defaultEntryId="0545-80e7-1abc-809f" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="0545-80e7-1abc-809f" name="Karist Trooper Quintarch w/ Pulse Carbine" points="4.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="120">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="37d9-dc32-7c75-5134" targetId="439e-1552-e12d-7544" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="8842-93a7-19a8-5638" targetId="662f-11c5-7cee-4f73" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="7891-2649-060d-98db" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="e9f0-c624-2760-8b6d" targetId="77af-c7d0-8baa-8a09" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="daca-edd9-2ab6-1d8d" targetId="3215-fdc1-2596-f104" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="d302-14ea-470b-e3a2" name="Karist Trooper Quintarch w/ Pulse Carbine Mk2" points="5.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="120">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="a781-a7e3-af49-24c7" targetId="439e-1552-e12d-7544" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="1e0b-e877-e273-bc1e" targetId="662f-11c5-7cee-4f73" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="76b1-e06d-bbbe-ab4f" targetId="d6c9-4f1a-e17c-5430" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="e9c8-5914-b134-96b9" targetId="3215-fdc1-2596-f104" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="85f9-4beb-7d19-9e4a" targetId="ba27-7bd3-8beb-b2df" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
-  </sharedEntryGroups>
+  <sharedEntryGroups/>
   <sharedRules>
     <rule id="db40-373e-70e2-d62c" name="Angel" hidden="false" book="Rulebook" page="125">
       <description>(designator) Angels are a xeno model (for any attacks, abilities, etc., that specify they affect xeno models). Angels do not count as being either organic or inorganic models. A unit containing one or more angel models may not be joined or issued an order unless the model doing so has the Angel Handler ability. In addition, a unit containing one or more angel models may not enter a building unless the unit contains a model with the Angel Handler ability. A Mature Angel is sentient enough to enter on its own, provided the building is large enough to allow this.</description>
@@ -1659,6 +2503,19 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
         <characteristic characteristicId="7c96-d8ce-ea5e-a562" name="FOR" value="1"/>
         <characteristic characteristicId="e567-47db-a81f-8cbd" name="WP" value="3"/>
         <characteristic characteristicId="6f62-720f-8c68-d543" name="Model type" value="Infantry (Human, Squad Leader)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="e40e-11c8-c128-c57c" profileTypeId="ab67-d501-31db-cfeb" name="Praetorian" hidden="false" book="The Karist Enclave faction book" page="13">
+      <characteristics>
+        <characteristic characteristicId="105e-ca6f-41c5-7a69" name="MV" value="6"/>
+        <characteristic characteristicId="4ef6-6202-2d81-67e2" name="EVS" value="3"/>
+        <characteristic characteristicId="a73d-b1d9-cb27-ac65" name="SKL" value="5"/>
+        <characteristic characteristicId="e34e-8baf-b761-6b17" name="AV" value="4"/>
+        <characteristic characteristicId="34e2-54d7-20cc-d02d" name="MAS" value="2"/>
+        <characteristic characteristicId="7c96-d8ce-ea5e-a562" name="FOR" value="1"/>
+        <characteristic characteristicId="e567-47db-a81f-8cbd" name="WP" value="4"/>
+        <characteristic characteristicId="6f62-720f-8c68-d543" name="Model type" value="Infantry (Human)"/>
       </characteristics>
       <modifiers/>
     </profile>

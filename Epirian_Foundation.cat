@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b2f7-acad-02b0-9f63" revision="3" gameSystemId="872b-3a0a-4811-6b90" gameSystemRevision="1" battleScribeVersion="1.15" name="Epirian Foundation" books="Battle for Zycanthus Rulebook" authorName="Marten" authorContact="medgebattlescribe@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b2f7-acad-02b0-9f63" revision="5" gameSystemId="872b-3a0a-4811-6b90" gameSystemRevision="1" battleScribeVersion="1.15" name="Epirian Foundation" books="Battle for Zycanthus Rulebook" authorName="Marten" authorContact="medgebattlescribe@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="fca8-6758-8157-db79" name="Contractor Engineers squad" points="0.0" categoryId="6f28-119e-2956-77a6" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="107">
       <entries>
@@ -80,6 +80,524 @@
           </modifiers>
         </link>
         <link id="97cc-0e3b-5b30-7887" targetId="9c79-9cd5-48b6-5852" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="938c-dadf-2c3a-111b" name="Contractor Suppression Team" points="0.0" categoryId="db3f-c00f-2144-60d8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Epirian Foundation faction book" page="12">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="dae2-16c1-f3f0-ed39" name="Contractor Suppression Team" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="e8c7-2db2-8bd0-d6b0" name="Subjugator" points="5.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Epirian Foundation faction book" page="12">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="fc11-45cf-9432-947f" name="weapon options" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries>
+                    <entry id="6613-eb36-2476-ba6f" name="Clingfire Sprayer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Epirian Foundation faction book" page="17">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers>
+                        <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                        <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions>
+                            <condition parentId="e8c7-2db2-8bd0-d6b0" childId="6128-a8f4-b704-6517" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                      <rules/>
+                      <profiles>
+                        <profile id="a97a-4e98-81cc-7903" profileTypeId="9ea8-02e2-6b56-fe99" name="Clingfire Sprayer Burst Mode" hidden="false" book="The Epirian Foundation faction book" page="17">
+                          <characteristics>
+                            <characteristic characteristicId="3376-f49f-c453-efbd" name="RNG" value="6&quot;"/>
+                            <characteristic characteristicId="33c7-f329-1730-3a25" name="SHO" value="2"/>
+                            <characteristic characteristicId="fad2-e5a6-50be-59fc" name="PEN" value="3"/>
+                            <characteristic characteristicId="bd33-2c94-8b54-1e30" name="DAM" value="1"/>
+                            <characteristic characteristicId="7562-47bc-c7a3-63ab" name="Special" value="Pistol, Suppress (D3)"/>
+                          </characteristics>
+                          <modifiers/>
+                        </profile>
+                      </profiles>
+                      <links>
+                        <link id="7ead-ac4c-8b4a-a392" targetId="d8df-1c72-4974-a86d" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                  </entries>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links>
+                    <link id="6128-a8f4-b704-6517" targetId="0ab6-85fe-7913-0012" linkType="entry">
+                      <modifiers>
+                        <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                        <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </link>
+                  </links>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <rules>
+                <rule id="9994-cbde-9ebc-7d9c" name="Slaved" hidden="false" book="The Epirian Foundation faction book" page="16">
+                  <description>If a unit ever contains only slaved models, remove those models as casualties. This occurs only after the action that removed the last non-slaved model from the unit and any free actions triggered by that same action have been fully resolved.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="e0e9-3edb-56fd-1f59" profileTypeId="ab67-d501-31db-cfeb" name="Subjugator" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="105e-ca6f-41c5-7a69" name="MV" value="7"/>
+                    <characteristic characteristicId="4ef6-6202-2d81-67e2" name="EVS" value="2"/>
+                    <characteristic characteristicId="a73d-b1d9-cb27-ac65" name="SKL" value="3"/>
+                    <characteristic characteristicId="e34e-8baf-b761-6b17" name="AV" value="3"/>
+                    <characteristic characteristicId="34e2-54d7-20cc-d02d" name="MAS" value="2"/>
+                    <characteristic characteristicId="7c96-d8ce-ea5e-a562" name="FOR" value="3"/>
+                    <characteristic characteristicId="e567-47db-a81f-8cbd" name="WP" value="2"/>
+                    <characteristic characteristicId="6f62-720f-8c68-d543" name="Model type" value="Infantry (Robot, Slaved)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="a0e0-e3d7-4941-46e9" targetId="1dee-7d07-a378-9d98" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups>
+            <entryGroup id="f56c-4b24-8694-c5c6" name="Contractor Suppressors" minSelections="1" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="1a77-c4dc-f1ba-d612" name="Contractor Suppression Team Leader" points="3.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups>
+                    <entryGroup id="6816-a370-c944-f08e" name="Weapon options" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries/>
+                      <entryGroups>
+                        <entryGroup id="5984-2c0f-2afe-4139" name="Maglock Weapons" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <links>
+                            <link id="f4b3-c484-c9b4-d61c" targetId="9851-b971-a9e5-c807" linkType="entry">
+                              <modifiers>
+                                <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
+                            </link>
+                            <link id="6cf3-fd46-7508-6071" targetId="75b5-7142-08b4-c9c7" linkType="entry">
+                              <modifiers>
+                                <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
+                            </link>
+                          </links>
+                        </entryGroup>
+                      </entryGroups>
+                      <modifiers/>
+                      <links>
+                        <link id="8f60-b487-a7df-3cd2" targetId="2a5c-4b34-3e13-08af" linkType="entry">
+                          <modifiers>
+                            <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </link>
+                        <link id="2d7f-1ac0-4f2b-0f9f" targetId="5811-9de6-9b36-926e" linkType="entry">
+                          <modifiers>
+                            <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </link>
+                      </links>
+                    </entryGroup>
+                  </entryGroups>
+                  <modifiers>
+                    <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="938c-dadf-2c3a-111b" childId="b20c-abfb-e8c5-99b1" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="938c-dadf-2c3a-111b" childId="b20c-abfb-e8c5-99b1" field="selections" type="equal to" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles>
+                    <profile id="0f91-4c19-00cd-102e" profileTypeId="ab67-d501-31db-cfeb" name="Contractor Team Leader" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="105e-ca6f-41c5-7a69" name="MV" value="7"/>
+                        <characteristic characteristicId="4ef6-6202-2d81-67e2" name="EVS" value="4"/>
+                        <characteristic characteristicId="a73d-b1d9-cb27-ac65" name="SKL" value="3"/>
+                        <characteristic characteristicId="e34e-8baf-b761-6b17" name="AV" value="3"/>
+                        <characteristic characteristicId="34e2-54d7-20cc-d02d" name="MAS" value="2"/>
+                        <characteristic characteristicId="7c96-d8ce-ea5e-a562" name="FOR" value="1"/>
+                        <characteristic characteristicId="e567-47db-a81f-8cbd" name="WP" value="3"/>
+                        <characteristic characteristicId="6f62-720f-8c68-d543" name="Model type" value="Infantry (Human, Squad Leader)"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links>
+                    <link id="b52e-61dd-66e1-bd79" targetId="bfc1-ad8b-cd2c-5ae0" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="811e-9218-a610-05b8" targetId="1b62-0fd7-0c3e-162d" linkType="entry">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="91a7-9b89-796e-4612" name="Contractor w/ Assault Rifle &amp; Guardian Pistol" points="2.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="2470-79df-95aa-d6f4" targetId="1b62-0fd7-0c3e-162d" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="9714-c0e3-3eb9-0d7b" targetId="bfc1-ad8b-cd2c-5ae0" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="ee7b-e4db-8971-9bb4" targetId="9851-b971-a9e5-c807" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="1591-ef5d-e015-f62d" targetId="75b5-7142-08b4-c9c7" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="02d3-7a81-f80f-c701" targetId="89bb-6292-5902-4f28" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="b89e-34f7-b3ac-2c09" name="Contractor w/ Assault Rifle &amp; Shock Baton" points="2.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="bf58-0b7d-526f-8373" targetId="1b62-0fd7-0c3e-162d" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="59a8-2776-3f12-c244" targetId="bfc1-ad8b-cd2c-5ae0" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="5e69-7ed3-d52e-52d0" targetId="9851-b971-a9e5-c807" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="ef7f-c2fc-59bd-ccd4" targetId="1f96-0ca4-4ddc-cad8" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="d91a-a3a1-03bc-27bb" targetId="89bb-6292-5902-4f28" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="3fd8-eb30-b4f6-5f73" name="Contractor w/ Assault Rifle &amp; Shock Maul" points="2.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="f676-4dab-f96d-983a" targetId="1b62-0fd7-0c3e-162d" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="c325-7393-1508-334a" targetId="bfc1-ad8b-cd2c-5ae0" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="81a9-fa9f-8eeb-b829" targetId="9851-b971-a9e5-c807" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="3837-b808-76b4-1277" targetId="c0f0-65ac-89a2-9724" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="421f-660b-f5a2-2d16" targetId="89bb-6292-5902-4f28" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="da54-3ab2-f342-0ef8" name="Contractor w/ Guardian Pistol &amp; Shock Baton" points="2.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="da04-6263-362c-170d" targetId="1b62-0fd7-0c3e-162d" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="09df-70a5-74a0-f8b7" targetId="bfc1-ad8b-cd2c-5ae0" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="20ad-05a1-f1c7-7c49" targetId="75b5-7142-08b4-c9c7" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="7ca2-e314-3277-7cc2" targetId="1f96-0ca4-4ddc-cad8" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="e7d0-b864-e25b-ffdc" targetId="89bb-6292-5902-4f28" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="b854-0ef1-8025-d5e6" name="Contractor w/ Guardian Pistol &amp; Shock Maul" points="2.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="5ba2-fe7d-d7a4-cdc1" targetId="1b62-0fd7-0c3e-162d" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="af09-f932-aaf7-fd39" targetId="bfc1-ad8b-cd2c-5ae0" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="5734-e066-5b7f-d0ee" targetId="75b5-7142-08b4-c9c7" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="d280-422c-872c-d74f" targetId="c0f0-65ac-89a2-9724" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="17a4-b511-ba6b-7a4b" targetId="89bb-6292-5902-4f28" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+            <entryGroup id="d892-9eb7-d179-f11a" name="max 2 models with aux grenade launcher" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="b20c-abfb-e8c5-99b1" name="Contractor Suppression Team Leader" points="3.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups>
+                    <entryGroup id="b840-020a-ba3a-fdc2" name="Weapon options" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries/>
+                      <entryGroups>
+                        <entryGroup id="9134-df7d-a04b-0c55" name="Maglock Weapons" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <links>
+                            <link id="1c07-6f84-c670-6cea" targetId="cd9a-cd14-1c12-8983" linkType="entry">
+                              <modifiers>
+                                <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                                <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
+                            </link>
+                            <link id="0971-e7ca-1ceb-4e3a" targetId="75b5-7142-08b4-c9c7" linkType="entry">
+                              <modifiers>
+                                <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
+                            </link>
+                          </links>
+                        </entryGroup>
+                      </entryGroups>
+                      <modifiers/>
+                      <links>
+                        <link id="a38c-5fd4-b23f-1f29" targetId="2a5c-4b34-3e13-08af" linkType="entry">
+                          <modifiers>
+                            <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </link>
+                        <link id="c244-df0f-12f4-4e94" targetId="5811-9de6-9b36-926e" linkType="entry">
+                          <modifiers>
+                            <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </link>
+                      </links>
+                    </entryGroup>
+                  </entryGroups>
+                  <modifiers>
+                    <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="938c-dadf-2c3a-111b" childId="1a77-c4dc-f1ba-d612" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="938c-dadf-2c3a-111b" childId="1a77-c4dc-f1ba-d612" field="selections" type="equal to" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles>
+                    <profile id="d3c6-e12e-2795-74be" profileTypeId="ab67-d501-31db-cfeb" name="Contractor Team Leader" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="105e-ca6f-41c5-7a69" name="MV" value="7"/>
+                        <characteristic characteristicId="4ef6-6202-2d81-67e2" name="EVS" value="4"/>
+                        <characteristic characteristicId="a73d-b1d9-cb27-ac65" name="SKL" value="3"/>
+                        <characteristic characteristicId="e34e-8baf-b761-6b17" name="AV" value="3"/>
+                        <characteristic characteristicId="34e2-54d7-20cc-d02d" name="MAS" value="2"/>
+                        <characteristic characteristicId="7c96-d8ce-ea5e-a562" name="FOR" value="1"/>
+                        <characteristic characteristicId="e567-47db-a81f-8cbd" name="WP" value="3"/>
+                        <characteristic characteristicId="6f62-720f-8c68-d543" name="Model type" value="Infantry (Human, Squad Leader)"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links>
+                    <link id="4e93-879a-d41f-4138" targetId="bfc1-ad8b-cd2c-5ae0" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="822e-1e87-eb1a-b0b9" targetId="1b62-0fd7-0c3e-162d" linkType="entry">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="9cd8-dc92-385f-ee1b" name="Contractor w/ Assault Rifle + Aux Gren. &amp; Guardian Pistol" points="2.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="cfb0-6d8f-60fa-16cd" targetId="1b62-0fd7-0c3e-162d" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="ca03-cd27-9588-176f" targetId="bfc1-ad8b-cd2c-5ae0" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="df7e-ad4f-dec1-81c7" targetId="cd9a-cd14-1c12-8983" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="f418-94c2-7691-f571" targetId="75b5-7142-08b4-c9c7" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="88c8-cdf5-235c-eede" targetId="89bb-6292-5902-4f28" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="656c-6b1a-c206-9c66" name="Contractor w/ Assault Rifle + Aux Gren. &amp; Shock Baton" points="2.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="93e0-5eff-972b-d345" targetId="1b62-0fd7-0c3e-162d" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="81a5-7357-0089-94e5" targetId="bfc1-ad8b-cd2c-5ae0" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="f6d9-0650-682d-60fd" targetId="cd9a-cd14-1c12-8983" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="100f-7766-bb28-920b" targetId="1f96-0ca4-4ddc-cad8" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="0dc5-8e8e-a059-990f" targetId="89bb-6292-5902-4f28" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="ed84-bd0f-b89b-61bd" name="Contractor w/ Assault Rifle + Aux Gren. &amp; Shock Maul" points="2.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="c6d7-2d6d-fbb9-e3e6" targetId="1b62-0fd7-0c3e-162d" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="8ecd-433e-ebd9-b7b2" targetId="bfc1-ad8b-cd2c-5ae0" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="80fc-8589-af55-dab0" targetId="cd9a-cd14-1c12-8983" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="21c7-523a-ede5-0a55" targetId="c0f0-65ac-89a2-9724" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="d4ce-078f-8d7d-a6e4" targetId="89bb-6292-5902-4f28" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="force type" childId="5de2-de76-73c0-e843" field="selections" type="instance of" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="029b-b810-9dc6-d6f9" targetId="559e-f827-01b4-f3ae" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -428,14 +946,14 @@
         <link id="ec77-b24c-5147-0de5" targetId="54e1-7866-a29f-3d70" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="cd08-eda5-f428-bd92" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="47f4-f574-414d-7331" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="327e-a56e-7c01-bb54" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="47f4-f574-414d-7331" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="327e-a56e-7c01-bb54" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="cd08-eda5-f428-bd92" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -455,13 +973,13 @@
         <link id="e7ab-a6ac-a1f1-114a" targetId="87cc-ca1b-561c-0e92" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="cd08-eda5-f428-bd92" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="e4d5-0026-7bab-43ac" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="e4d5-0026-7bab-43ac" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="cd08-eda5-f428-bd92" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -471,15 +989,22 @@
         <link id="8162-a041-6a04-121f" targetId="d0ad-f5c1-4e92-2298" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="cd08-eda5-f428-bd92" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="4eec-66d1-ee85-8fb7" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="1fbf-8f9c-e2b0-04e9" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="14d8-a0e3-e4e8-59f4" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="1f96-0ca4-4ddc-cad8" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="c0f0-65ac-89a2-9724" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="1b62-0fd7-0c3e-162d" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="4eec-66d1-ee85-8fb7" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="6613-eb36-2476-ba6f" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="cd08-eda5-f428-bd92" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="1fbf-8f9c-e2b0-04e9" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="14d8-a0e3-e4e8-59f4" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="cd9a-cd14-1c12-8983" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="5811-9de6-9b36-926e" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="2a5c-4b34-3e13-08af" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -489,15 +1014,17 @@
         <link id="7af1-c38b-84d6-56da" targetId="3c7a-3c7e-4d65-6a07" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="4eec-66d1-ee85-8fb7" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="1fbf-8f9c-e2b0-04e9" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="47f4-f574-414d-7331" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="bfc1-ad8b-cd2c-5ae0" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="1b62-0fd7-0c3e-162d" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="1fbf-8f9c-e2b0-04e9" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="47f4-f574-414d-7331" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="bfc1-ad8b-cd2c-5ae0" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="4eec-66d1-ee85-8fb7" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="cd9a-cd14-1c12-8983" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -507,13 +1034,14 @@
         <link id="db1a-ab00-5c44-c8ed" targetId="68c1-2684-d3eb-201b" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="4eec-66d1-ee85-8fb7" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="bfc1-ad8b-cd2c-5ae0" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="cd9a-cd14-1c12-8983" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="bfc1-ad8b-cd2c-5ae0" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="4eec-66d1-ee85-8fb7" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -523,19 +1051,21 @@
         <link id="b759-6a5b-b0fc-7bd4" targetId="6d58-8dd5-59d8-0d84" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="4eec-66d1-ee85-8fb7" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="1fbf-8f9c-e2b0-04e9" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="14d8-a0e3-e4e8-59f4" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="bfc1-ad8b-cd2c-5ae0" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="c3cf-24e4-4e20-ba87" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="e4d5-0026-7bab-43ac" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="e5d2-bb88-7e8d-274f" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="69d9-2eae-1849-0040" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="1b62-0fd7-0c3e-162d" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="14d8-a0e3-e4e8-59f4" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="69d9-2eae-1849-0040" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="cd9a-cd14-1c12-8983" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="e5d2-bb88-7e8d-274f" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="c3cf-24e4-4e20-ba87" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="bfc1-ad8b-cd2c-5ae0" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="e4d5-0026-7bab-43ac" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="1fbf-8f9c-e2b0-04e9" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="4eec-66d1-ee85-8fb7" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -545,10 +1075,17 @@
         <link id="d15c-fbda-323d-1bb0" targetId="d9ce-2f7d-9bd8-97f6" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="4eec-66d1-ee85-8fb7" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" childId="4eec-66d1-ee85-8fb7" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="cd9a-cd14-1c12-8983" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="1b62-0fd7-0c3e-162d" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </link>
@@ -575,16 +1112,16 @@
         <link id="e42c-f8a0-5aa1-30df" targetId="2bd6-37d2-48c2-a332" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="14d8-a0e3-e4e8-59f4" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="f0bd-156b-fea3-161c" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="4ca0-f371-6869-c5a6" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="7f05-a997-6766-4e47" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="75b5-7142-08b4-c9c7" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="f0bd-156b-fea3-161c" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="7f05-a997-6766-4e47" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="14d8-a0e3-e4e8-59f4" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="4ca0-f371-6869-c5a6" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="75b5-7142-08b4-c9c7" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -594,16 +1131,16 @@
         <link id="515b-41d8-8804-0b2a" targetId="c891-9825-c655-b606" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="47f4-f574-414d-7331" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="5dfe-27b2-43f1-2c34" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="c119-6ad0-eae6-63cc" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="8e61-2bc3-062d-d9d4" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="e4d5-0026-7bab-43ac" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="5dfe-27b2-43f1-2c34" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="c119-6ad0-eae6-63cc" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="47f4-f574-414d-7331" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="8e61-2bc3-062d-d9d4" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="e4d5-0026-7bab-43ac" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -613,18 +1150,18 @@
         <link id="6888-a09a-655e-3123" targetId="ef0c-d904-fcea-30dc" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="47f4-f574-414d-7331" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="f0bd-156b-fea3-161c" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="c119-6ad0-eae6-63cc" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="327e-a56e-7c01-bb54" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="8e61-2bc3-062d-d9d4" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="e5d2-bb88-7e8d-274f" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="69d9-2eae-1849-0040" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="8e61-2bc3-062d-d9d4" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="69d9-2eae-1849-0040" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="e5d2-bb88-7e8d-274f" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="327e-a56e-7c01-bb54" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="c119-6ad0-eae6-63cc" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="f0bd-156b-fea3-161c" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="47f4-f574-414d-7331" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -644,13 +1181,13 @@
         <link id="6b6b-aafd-549e-fa04" targetId="5373-fd6f-4f3c-0bb3" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="604c-dca6-7d38-4912" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="4c5d-00eb-0518-e061" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="604c-dca6-7d38-4912" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="4c5d-00eb-0518-e061" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -660,34 +1197,51 @@
         <link id="02e0-3f6f-1a5f-e794" targetId="1e20-d044-8fe2-b7a1" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="bfc1-ad8b-cd2c-5ae0" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" childId="1b62-0fd7-0c3e-162d" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="bfc1-ad8b-cd2c-5ae0" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </link>
         <link id="4950-2623-18e8-b010" targetId="8aa8-bd0a-45a8-442f" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="c3cf-24e4-4e20-ba87" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="e4d5-0026-7bab-43ac" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" childId="c0f0-65ac-89a2-9724" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="c3cf-24e4-4e20-ba87" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="e4d5-0026-7bab-43ac" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="5811-9de6-9b36-926e" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </link>
         <link id="3ab1-4013-5e82-5cde" targetId="2506-e4db-5a62-42f9" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="c3cf-24e4-4e20-ba87" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="e4d5-0026-7bab-43ac" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="1f96-0ca4-4ddc-cad8" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="c0f0-65ac-89a2-9724" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="e4d5-0026-7bab-43ac" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="c3cf-24e4-4e20-ba87" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="5811-9de6-9b36-926e" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="2a5c-4b34-3e13-08af" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -697,13 +1251,14 @@
         <link id="51bf-ef7d-2f5e-44ca" targetId="d93b-a40a-dd76-361f" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="7f05-a997-6766-4e47" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="75b5-7142-08b4-c9c7" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="6613-eb36-2476-ba6f" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="7f05-a997-6766-4e47" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="75b5-7142-08b4-c9c7" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -713,13 +1268,13 @@
         <link id="0894-520a-defc-ff90" targetId="2410-ba3e-e7c9-29d9" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="e5d2-bb88-7e8d-274f" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="69d9-2eae-1849-0040" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="e5d2-bb88-7e8d-274f" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="69d9-2eae-1849-0040" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -729,13 +1284,13 @@
         <link id="ed7a-d0f8-c88b-496c" targetId="9e57-110a-a3d7-69d5" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="e5d2-bb88-7e8d-274f" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="69d9-2eae-1849-0040" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="69d9-2eae-1849-0040" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="e5d2-bb88-7e8d-274f" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -745,13 +1300,13 @@
         <link id="320b-2c65-f65b-2238" targetId="3765-f43b-26ff-d799" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="e5d2-bb88-7e8d-274f" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="69d9-2eae-1849-0040" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="69d9-2eae-1849-0040" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="e5d2-bb88-7e8d-274f" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -761,17 +1316,18 @@
         <link id="b9f7-5dc5-0591-2df2" targetId="22f4-d518-df6b-7f48" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="a42c-cb4b-f0c6-f65d" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="dc5a-f9a1-cbd2-a464" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="0381-1e19-038e-7dd0" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="117f-9fe8-7d7d-89bc" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="efa9-25f1-5fac-5115" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="20ae-1888-43c5-963d" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="e8c7-2db2-8bd0-d6b0" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="117f-9fe8-7d7d-89bc" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="a42c-cb4b-f0c6-f65d" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="20ae-1888-43c5-963d" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="dc5a-f9a1-cbd2-a464" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="0381-1e19-038e-7dd0" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="efa9-25f1-5fac-5115" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -791,13 +1347,13 @@
         <link id="a895-d49a-572d-3f38" targetId="1dee-7d07-a378-9d98" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="0a01-c268-8517-2737" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="63e5-2f7c-831f-5e42" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="63e5-2f7c-831f-5e42" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="0a01-c268-8517-2737" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -877,13 +1433,13 @@
         <link id="e39f-2037-2aeb-1e9d" targetId="bd57-ab4a-154b-c81b" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="0381-1e19-038e-7dd0" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="117f-9fe8-7d7d-89bc" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="117f-9fe8-7d7d-89bc" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="0381-1e19-038e-7dd0" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -893,13 +1449,13 @@
         <link id="aaa9-2a3a-81d4-32ca" targetId="2a7e-8033-63fb-dccd" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="0381-1e19-038e-7dd0" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="117f-9fe8-7d7d-89bc" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="117f-9fe8-7d7d-89bc" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="0381-1e19-038e-7dd0" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -909,13 +1465,13 @@
         <link id="76f3-5d40-22a3-0b88" targetId="1d52-95ae-81d4-302e" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="0381-1e19-038e-7dd0" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="117f-9fe8-7d7d-89bc" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="0381-1e19-038e-7dd0" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="117f-9fe8-7d7d-89bc" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -925,13 +1481,13 @@
         <link id="d01a-aa34-5866-0f86" targetId="98ff-24e1-4df8-de8a" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="0381-1e19-038e-7dd0" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="117f-9fe8-7d7d-89bc" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="0381-1e19-038e-7dd0" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="117f-9fe8-7d7d-89bc" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -941,13 +1497,13 @@
         <link id="8479-6c3a-c2ed-20b0" targetId="91f0-727d-caed-286f" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="0381-1e19-038e-7dd0" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="117f-9fe8-7d7d-89bc" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="117f-9fe8-7d7d-89bc" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="0381-1e19-038e-7dd0" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -957,13 +1513,31 @@
         <link id="6288-e759-2769-ca4d" targetId="bbd6-7057-0aa5-66f9" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="0381-1e19-038e-7dd0" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="roster" childId="117f-9fe8-7d7d-89bc" field="selections" type="equal to" value="0.0"/>
-              </conditions>
+              <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditions/>
+                  <conditions>
+                    <condition parentId="roster" childId="0381-1e19-038e-7dd0" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="117f-9fe8-7d7d-89bc" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="813f-5817-cee4-d7c7" targetId="fcf7-0d1f-408f-14a5" linkType="rule">
+          <modifiers>
+            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" childId="1f96-0ca4-4ddc-cad8" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="c0f0-65ac-89a2-9724" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="2a5c-4b34-3e13-08af" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="5811-9de6-9b36-926e" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -1315,6 +1889,18 @@
         </link>
       </links>
     </entry>
+    <entry id="0ab6-85fe-7913-0012" name="Chemtek Sprayer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="116">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="5666-d874-0cad-d82e" targetId="4ec4-6141-3897-3b66" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="e5d2-bb88-7e8d-274f" name="Chemtek Sprayer &amp; Maglock Rail Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1329,6 +1915,25 @@
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="1b62-0fd7-0c3e-162d" name="Choke Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="The Epirian Foundation faction book" page="19">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7015-740a-3721-b502" profileTypeId="9ea8-02e2-6b56-fe99" name="Choke Grenades" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="3376-f49f-c453-efbd" name="RNG" value="6&quot;"/>
+            <characteristic characteristicId="33c7-f329-1730-3a25" name="SHO" value="2+SB"/>
+            <characteristic characteristicId="fad2-e5a6-50be-59fc" name="PEN" value="1"/>
+            <characteristic characteristicId="bd33-2c94-8b54-1e30" name="DAM" value="1"/>
+            <characteristic characteristicId="7562-47bc-c7a3-63ab" name="Special" value="AoE (SB), Grenade, Ignore Cover, Poison (6+), Suppress (psych 1)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
     </entry>
     <entry id="1fbf-8f9c-e2b0-04e9" name="Clingfire Pod" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="Rulebook" page="113">
       <entries/>
@@ -1450,7 +2055,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="bfc1-ad8b-cd2c-5ae0" name="EMP Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="115">
+    <entry id="bfc1-ad8b-cd2c-5ae0" name="EMP Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="Rulebook" page="115">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1570,6 +2175,32 @@
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="cd9a-cd14-1c12-8983" name="Maglock Assault Rifle with Aux Grenade Launcher (Choke &amp; EMP Rounds)" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="The Epirian Foundation faction book" page="17">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="4d09-93ea-92b7-70d7" profileTypeId="9ea8-02e2-6b56-fe99" name="Maglock Assault Rifle" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="3376-f49f-c453-efbd" name="RNG" value="24&quot;"/>
+            <characteristic characteristicId="33c7-f329-1730-3a25" name="SHO" value="2"/>
+            <characteristic characteristicId="fad2-e5a6-50be-59fc" name="PEN" value="3"/>
+            <characteristic characteristicId="bd33-2c94-8b54-1e30" name="DAM" value="1"/>
+            <characteristic characteristicId="7562-47bc-c7a3-63ab" name="Special"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="dca2-c602-98a8-f11f" targetId="605c-0d93-969c-1013" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="d7e8-2a1f-a850-454d" targetId="3f6b-7681-a246-b6c5" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="c119-6ad0-eae6-63cc" name="Maglock Chaingun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="113">
       <entries/>
@@ -1695,6 +2326,82 @@
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="1f96-0ca4-4ddc-cad8" name="Shock Baton" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="The Epirian Foundation faction book" page="19">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="805e-c619-c1e2-8a6c" profileTypeId="9ea8-02e2-6b56-fe99" name="Shock Baton" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="3376-f49f-c453-efbd" name="RNG" value="CQ"/>
+            <characteristic characteristicId="33c7-f329-1730-3a25" name="SHO" value="(EVS+MAS+FOR)/2"/>
+            <characteristic characteristicId="fad2-e5a6-50be-59fc" name="PEN" value="4+"/>
+            <characteristic characteristicId="bd33-2c94-8b54-1e30" name="DAM" value="1"/>
+            <characteristic characteristicId="7562-47bc-c7a3-63ab" name="Special" value="F-PEN (4+), Melee, Suppress (1)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="2a5c-4b34-3e13-08af" name="Shock Baton" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Epirian Foundation faction book" page="19">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="bd0d-d177-1074-063e" profileTypeId="9ea8-02e2-6b56-fe99" name="Shock Baton" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="3376-f49f-c453-efbd" name="RNG" value="CQ"/>
+            <characteristic characteristicId="33c7-f329-1730-3a25" name="SHO" value="(EVS+MAS+FOR)/2"/>
+            <characteristic characteristicId="fad2-e5a6-50be-59fc" name="PEN" value="4+"/>
+            <characteristic characteristicId="bd33-2c94-8b54-1e30" name="DAM" value="1"/>
+            <characteristic characteristicId="7562-47bc-c7a3-63ab" name="Special" value="F-PEN (4+), Melee, Suppress (1)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="c0f0-65ac-89a2-9724" name="Shock Maul" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="The Epirian Foundation faction book" page="19">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="0074-1e11-8645-e99d" profileTypeId="9ea8-02e2-6b56-fe99" name="Shock Maul" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="3376-f49f-c453-efbd" name="RNG" value="CQ"/>
+            <characteristic characteristicId="33c7-f329-1730-3a25" name="SHO" value="(EVS+MAS+FOR)/2"/>
+            <characteristic characteristicId="fad2-e5a6-50be-59fc" name="PEN" value="4+"/>
+            <characteristic characteristicId="bd33-2c94-8b54-1e30" name="DAM" value="2"/>
+            <characteristic characteristicId="7562-47bc-c7a3-63ab" name="Special" value="F-PEN (4+), Heavy, Melee, Suppress (2)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="5811-9de6-9b36-926e" name="Shock Maul" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Epirian Foundation faction book" page="19">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="fa16-aefc-6b2c-5aad" profileTypeId="9ea8-02e2-6b56-fe99" name="Shock Maul" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="3376-f49f-c453-efbd" name="RNG" value="CQ"/>
+            <characteristic characteristicId="33c7-f329-1730-3a25" name="SHO" value="(EVS+MAS+FOR)/2"/>
+            <characteristic characteristicId="fad2-e5a6-50be-59fc" name="PEN" value="4+"/>
+            <characteristic characteristicId="bd33-2c94-8b54-1e30" name="DAM" value="2"/>
+            <characteristic characteristicId="7562-47bc-c7a3-63ab" name="Special" value="F-PEN (4+), Heavy, Melee, Suppress (2)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
     </entry>
     <entry id="327e-a56e-7c01-bb54" name="Strike Missile Pod" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Rulebook" page="114">
       <entries/>
@@ -2047,6 +2754,10 @@ A unit which utilizes its Dodge ability to ignore one or more hits cannot also i
 In addition, an attack with this ability that manages to roll the specified value (X) or better on its roll to penetrate, while also successfully causing a penetrating hit, gains +1 DAM when applied onto an inorganic model.</description>
       <modifiers/>
     </rule>
+    <rule id="fcf7-0d1f-408f-14a5" name="F-PEN (4+)" hidden="false" book="Rulebook" page="77">
+      <description>4+ is the minimum result needed to successfully roll to penetrate, regardless of the defender&apos;s AV.</description>
+      <modifiers/>
+    </rule>
     <rule id="bd57-ab4a-154b-c81b" name="Fearless" hidden="false" book="Rulebook" page="82">
       <description>Fearless is a special type of squad ability in that it only applies if the squad leader model has the ability, in which case it is a fearless unit. Fearless units: * ignore any psych STs they are called upon to gain, discarding them instead; * never count as being shell-shocked (p. 45), and models in the unit never flee the battle (p. 46); * are never pinned and never retreat; * upon completing a Dig-in or Shaken action, get to shake-off the extra D3 STs, as though they were pinned; * do not take suppressive fire and CQ discipline checks. When performing a Shaken action, a fearless unit must either: * make a single move; * or remain stationary and fire a single round of wild shooting.</description>
       <modifiers/>
@@ -2102,6 +2813,10 @@ A unit that utilizes its Field ability to ignore one or more hits cannot also ig
     </rule>
     <rule id="87cc-ca1b-561c-0e92" name="Limited Use" hidden="false" book="Rulebook" page="77">
       <description>Weapons with this ability can only be fired the specified number of rounds (X) during the entire game. If all modes of a weapon are limited use, then once these have all been expended the model no longer counts as being equipped with that weapon.</description>
+      <modifiers/>
+    </rule>
+    <rule id="559e-f827-01b4-f3ae" name="Linebreaker" hidden="false" book="The Epirian Foundation faction book" page="12">
+      <description>(squad ability) When an enemy unit takes a CQ discipline check following a round of CQ fighting against a unit with this ability, the result needed to pass is increased by one, so if the check would normally pass on a roll of 3+, it instead requires a roll of 4+.</description>
       <modifiers/>
     </rule>
     <rule id="1dee-7d07-a378-9d98" name="Linked Weapons" hidden="false" book="Rulebook" page="74">

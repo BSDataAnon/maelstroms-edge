@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataIndex battleScribeVersion="2.00" name="Maelstrom&apos;s Edge" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
+  <repositoryUrls/>
+  <dataIndexEntries>
+    <dataIndexEntry filePath="Maelstrom&apos;s_Edge.gstz" dataType="gamesystem" dataId="49cd-4f53-908d-4074" dataName="Maelstrom&apos;s Edge" dataBattleScribeVersion="2.00" dataRevision="2"/>
+    <dataIndexEntry filePath="Karist_Enclave.catz" dataType="catalogue" dataId="5268-a65a-50b7-8636" dataName="Karist Enclave" dataBattleScribeVersion="2.00" dataRevision="2"/>
+    <dataIndexEntry filePath="Epirian_Foundation.catz" dataType="catalogue" dataId="404c-f039-33d5-bfb3" dataName="Epirian Foundation" dataBattleScribeVersion="2.00" dataRevision="2"/>
+  </dataIndexEntries>
+</dataIndex>

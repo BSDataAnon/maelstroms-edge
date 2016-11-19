@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="404c-f039-33d5-bfb3" name="Epirian Foundation" book="The Epirian Foundation faction book" revision="4" battleScribeVersion="2.00" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="404c-f039-33d5-bfb3" name="Epirian Foundation" book="The Epirian Foundation faction book" revision="5" battleScribeVersion="2.00" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3957,8 +3957,8 @@ Automated Objective: Although a unit, it does not count as one towards any other
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bf62-2ed0-fca2-241d" type="min"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="75c8-6be0-9c41-2b04" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2528-39de-bdd7-9aba" type="min"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>

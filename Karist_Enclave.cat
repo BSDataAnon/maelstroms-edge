@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5268-a65a-50b7-8636" name="Karist Enclave" book="Karist Enclave faction book" revision="4" battleScribeVersion="2.00" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5268-a65a-50b7-8636" name="Karist Enclave" book="Karist Enclave faction book" revision="5" battleScribeVersion="2.00" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2084,14 +2084,14 @@
               <modifiers>
                 <modifier type="decrement" field="db73-befb-0787-70cd" value="1">
                   <repeats>
-                    <repeat field="selections" scope="616a-475d-e28c-7d21" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e340-2f3c-fc03-7297" repeats="1"/>
+                    <repeat field="selections" scope="616a-475d-e28c-7d21" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e340-2f3c-fc03-7297" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
                 <modifier type="decrement" field="4c1e-2dfd-634b-1db9" value="1">
                   <repeats>
-                    <repeat field="selections" scope="616a-475d-e28c-7d21" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e340-2f3c-fc03-7297" repeats="1"/>
+                    <repeat field="selections" scope="616a-475d-e28c-7d21" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e340-2f3c-fc03-7297" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -2997,7 +2997,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="da9b-cd98-1797-7893" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="673f-cb15-d269-7751" name="New EntryLink" hidden="false" targetId="6fc9-6ca4-526c-c9c8" type="selectionEntry">
+                    <entryLink id="673f-cb15-d269-7751" name="New EntryLink" hidden="false" targetId="83e3-71b1-f6d5-6aa4" type="selectionEntry">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -3023,14 +3023,14 @@
               <modifiers>
                 <modifier type="decrement" field="0839-9b4d-8354-fc7c" value="1">
                   <repeats>
-                    <repeat field="selections" scope="3893-5f8c-5987-2ae3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a036-e954-b372-c3a8" repeats="1"/>
+                    <repeat field="selections" scope="3893-5f8c-5987-2ae3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a036-e954-b372-c3a8" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
                 <modifier type="decrement" field="db52-260a-efc0-39b5" value="1">
                   <repeats>
-                    <repeat field="selections" scope="3893-5f8c-5987-2ae3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a036-e954-b372-c3a8" repeats="1"/>
+                    <repeat field="selections" scope="3893-5f8c-5987-2ae3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a036-e954-b372-c3a8" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>

@@ -3947,7 +3947,7 @@ Automated Objective: Although a unit, it does not count as one towards any other
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f130-14bd-0923-38ad" type="max"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b44f-2c0f-1cf8-bba7" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7e1-5ffe-6304-59e5" type="min"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -3958,7 +3958,7 @@ Automated Objective: Although a unit, it does not count as one towards any other
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="75c8-6be0-9c41-2b04" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2528-39de-bdd7-9aba" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2801-431d-6a30-33f0" type="min"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>

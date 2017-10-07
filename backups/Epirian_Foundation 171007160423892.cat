@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="404c-f039-33d5-bfb3" name="Epirian Foundation" book="The Epirian Foundation faction book" revision="5" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="1">
-<categoryEntries/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="404c-f039-33d5-bfb3" name="Epirian Foundation" book="The Epirian Foundation faction book" revision="5" battleScribeVersion="2.00" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,10 +7,7 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="7529-283b-dd13-746e" name="Journeyman Bot Handler" book="The Epirian Foundation faction book" page="9" hidden="true" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="7529-283b-dd13-746e-ceb9-cdff-5047-ce6c" targetId="ceb9-cdff-5047-ce6c" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="7529-283b-dd13-746e" name="Journeyman Bot Handler" book="The Epirian Foundation faction book" page="9" hidden="true" collective="false" categoryEntryId="ceb9-cdff-5047-ce6c" type="unit">
       <profiles/>
       <rules>
         <rule id="7a14-b21a-b5fa-dd23" name="Command (2) [1+1 from Neural Interface]" hidden="false">
@@ -139,10 +136,7 @@
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="34ad-6c9a-72d7-8e30" name="Rules Summary" hidden="false" collective="false" type="upgrade">
-<categoryLinks>
-<categoryLink id="34ad-6c9a-72d7-8e30-5a96-4a1b-45a4-1080" targetId="5a96-4a1b-45a4-1080" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="34ad-6c9a-72d7-8e30" name="Rules Summary" hidden="false" collective="false" categoryEntryId="5a96-4a1b-45a4-1080" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -912,10 +906,7 @@
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8115-854e-a58b-b7c3" name="Contractor Engineers" book="The Epirian Foundation faction book" page="10" hidden="true" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="8115-854e-a58b-b7c3-6b1e-e5f2-496a-ea94" targetId="6b1e-e5f2-496a-ea94" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="8115-854e-a58b-b7c3" name="Contractor Engineers" book="The Epirian Foundation faction book" page="10" hidden="true" collective="false" categoryEntryId="6b1e-e5f2-496a-ea94" type="unit">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1213,10 +1204,7 @@
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff23-c6a0-bb64-a3ac" name="Spider Drones" book="The Epirian Foundation faction book" page="11" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="ff23-c6a0-bb64-a3ac-6b1e-e5f2-496a-ea94" targetId="6b1e-e5f2-496a-ea94" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="ff23-c6a0-bb64-a3ac" name="Spider Drones" book="The Epirian Foundation faction book" page="11" hidden="false" collective="false" categoryEntryId="6b1e-e5f2-496a-ea94" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1237,10 +1225,7 @@
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fafb-af6e-0114-eb99" name="Scarecrow Sniper(s) (Multi-unit selection)" book="Rulebook" page="101" hidden="false" collective="false" type="upgrade">
-<categoryLinks>
-<categoryLink id="fafb-af6e-0114-eb99-2cba-258f-2d61-acac" targetId="2cba-258f-2d61-acac" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="fafb-af6e-0114-eb99" name="Scarecrow Sniper(s) (Multi-unit selection)" book="Rulebook" page="101" hidden="false" collective="false" categoryEntryId="2cba-258f-2d61-acac" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1264,10 +1249,7 @@
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="36ca-fcdb-7661-934e" name="Command Scarecrow" book="The Epirian Foundation faction book" page="13" hidden="true" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="36ca-fcdb-7661-934e-ceb9-cdff-5047-ce6c" targetId="ceb9-cdff-5047-ce6c" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="36ca-fcdb-7661-934e" name="Command Scarecrow" book="The Epirian Foundation faction book" page="13" hidden="true" collective="false" categoryEntryId="ceb9-cdff-5047-ce6c" type="unit">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1450,10 +1432,7 @@
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="9.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="25f4-ea28-ce00-086f" name="Contractor Suppression Team" book="The Epirian Foundation faction book" page="12" hidden="true" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="25f4-ea28-ce00-086f-2cba-258f-2d61-acac" targetId="2cba-258f-2d61-acac" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="25f4-ea28-ce00-086f" name="Contractor Suppression Team" book="The Epirian Foundation faction book" page="12" hidden="true" collective="false" categoryEntryId="2cba-258f-2d61-acac" type="unit">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2403,10 +2382,7 @@
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5db0-cf2a-ab77-0d5b" name="Firefly Recon Drones" book="The Epirian Foundation faction book" page="14" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="5db0-cf2a-ab77-0d5b-92db-6165-172b-1666" targetId="92db-6165-172b-1666" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="5db0-cf2a-ab77-0d5b" name="Firefly Recon Drones" book="The Epirian Foundation faction book" page="14" hidden="false" collective="false" categoryEntryId="92db-6165-172b-1666" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2436,10 +2412,7 @@
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="064f-6b42-c7a9-428e" name="Hunter-class Warmech" book="The Epirian Foundation faction book" page="15" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="064f-6b42-c7a9-428e-c70f-ac61-5a64-4551" targetId="c70f-ac61-5a64-4551" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="064f-6b42-c7a9-428e" name="Hunter-class Warmech" book="The Epirian Foundation faction book" page="15" hidden="false" collective="false" categoryEntryId="c70f-ac61-5a64-4551" type="unit">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2715,10 +2688,7 @@
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="13.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e8b-f823-b36b-bf63" name="Automated Uplink Relay" book="The Epirian Foundation faction book" page="21" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="0e8b-f823-b36b-bf63-4507-76c2-563b-778a" targetId="4507-76c2-563b-778a" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="0e8b-f823-b36b-bf63" name="Automated Uplink Relay" book="The Epirian Foundation faction book" page="21" hidden="false" collective="false" categoryEntryId="4507-76c2-563b-778a" type="unit">
       <profiles/>
       <rules>
         <rule id="23a2-aa57-9e9d-47da" name="Automated Uplink Relay faction objective" book="The Epirian Foundation faction book" page="21" hidden="false">
@@ -4099,21 +4069,21 @@ Automated Objective: Although a unit, it does not count as one towards any other
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>(squad ability) When this unit completes an Advance &amp; Fire or Dash action, as long as it isn't on the move or pinned, it may select one friendly Foundation unit within 6" that contains at least half robot models and isn't on the move itself. The selected unit immediately removes D3 STs. This ability cannot be used into or out of a building.</description>
+      <description>(squad ability) When this unit completes an Advance &amp; Fire or Dash action, as long as it isn&apos;t on the move or pinned, it may select one friendly Foundation unit within 6&quot; that contains at least half robot models and isn&apos;t on the move itself. The selected unit immediately removes D3 STs. This ability cannot be used into or out of a building.</description>
     </rule>
     <rule id="41b5-f3ba-9a2d-49db" name="Bot Protocol - Stay Low!" book="The Epirian Foundation faction book" page="16" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>(squad ability) While enabled, the unit's Dug-in ability is improved by +1. If the unit doesn't have the Dug-in ability, it instead gains the Dug-in (+1) ability.</description>
+      <description>(squad ability) While enabled, the unit&apos;s Dug-in ability is improved by +1. If the unit doesn&apos;t have the Dug-in ability, it instead gains the Dug-in (+1) ability.</description>
     </rule>
     <rule id="e2b9-2a6c-bf9b-1612" name="Marksman (+3)" book="Rulebook" page="82" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Add 3 to the model's SKL when shooting, except in CQ fighting.</description>
+      <description>Add 3 to the model&apos;s SKL when shooting, except in CQ fighting.</description>
     </rule>
     <rule id="2db0-8add-ac43-197e" name="Advanced Tracking" book="The Epirian Foundation faction book" page="13" hidden="false">
       <profiles/>

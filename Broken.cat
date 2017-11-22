@@ -1,12 +1,117 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0a23-2860-f7f4-1ea1" name="Broken" revision="1" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0a23-2860-f7f4-1ea1" name="Broken" revision="3" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
   <categoryEntries/>
-  <forceEntries/>
+  <forceEntries>
+    <forceEntry id="47fb-5ac8-ae71-a08a" name="Forsaken Chieftain detachment" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="47fb-5ac8-ae71-a08a" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="129c-54a2-a113-1030" type="max"/>
+      </constraints>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="1852-a278-e7e6-c683" name="Anvil" hidden="false" targetId="c70f-ac61-5a64-4551" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="4429-0eee-4ca4-9376" value="0.0">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b1e-e5f2-496a-ea94" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="4429-0eee-4ca4-9376" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b1e-e5f2-496a-ea94" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4429-0eee-4ca4-9376" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="a7ff-670a-664a-68df" name="Command" hidden="false" targetId="ceb9-cdff-5047-ce6c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c69f-2306-b0bb-2a0f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e74b-a00d-3198-f1f4" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="53e8-1375-d491-0341" name="Core" hidden="false" targetId="6b1e-e5f2-496a-ea94" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddaf-294b-611f-8d20" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ce2-e95d-9b3a-2f01" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="f2ff-cdeb-1dff-e802" name="Hammer" hidden="false" targetId="2cba-258f-2d61-acac" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="c459-e967-44ac-6ff9" value="0.0">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b1e-e5f2-496a-ea94" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="c459-e967-44ac-6ff9" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b1e-e5f2-496a-ea94" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c459-e967-44ac-6ff9" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="4a20-fc8d-e273-f9da" name="Vanguard" hidden="false" targetId="92db-6165-172b-1666" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="7135-9673-1e0a-073e" value="0.0">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b1e-e5f2-496a-ea94" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="7135-9673-1e0a-073e" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b1e-e5f2-496a-ea94" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7135-9673-1e0a-073e" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
   <selectionEntries>
     <selectionEntry id="653c-ad4a-02df-79a3" name="Broken Rabble" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -1220,7 +1325,15 @@
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e53d-9728-0e79-841a" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1913-319e-3885-51c1" type="max"/>
       </constraints>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="6537-7cbc-a5ee-4aea" name="New CategoryLink" hidden="false" targetId="5a96-4a1b-45a4-1080" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1728,7 +1841,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4d69-548c-8ffa-ba3d" name="Grenade Harness" hidden="false" collective="true" type="upgrade">
       <profiles/>
@@ -1803,7 +1918,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="df6a-f125-4560-282f" name="Broken Rabble w/ Torch" hidden="false" collective="false" type="model">
       <profiles/>

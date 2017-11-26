@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="49cd-4f53-908d-4074" name="Maelstrom&apos;s Edge" revision="5" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="49cd-4f53-908d-4074" name="Maelstrom&apos;s Edge" revision="6" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>

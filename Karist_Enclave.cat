@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5268-a65a-50b7-8636" name="Karist Enclave" book="Karist Enclave faction book" revision="7" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5268-a65a-50b7-8636" name="Karist Enclave" book="Karist Enclave faction book" revision="8" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -322,6 +322,7 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="083b-a7bd-9b79-b1cc" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="440e-7d75-f308-3d11" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0ede-b823-bd81-d9b4" type="lessThan"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2025-4be4-2f36-91ad" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -407,6 +408,7 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="49f7-a8c4-9473-4be3" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e41e-350f-e9ea-d554" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9005-58eb-7a3a-446d" type="lessThan"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2025-4be4-2f36-91ad" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -468,6 +470,7 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3e47-e12a-a5f5-6f7c" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="440e-7d75-f308-3d11" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0ede-b823-bd81-d9b4" type="lessThan"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2025-4be4-2f36-91ad" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -543,6 +546,9 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b3f2-940c-7c08-f4fc" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="51c2-da32-e894-91b3" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9005-58eb-7a3a-446d" type="lessThan"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e548-295a-68ae-00d3" type="lessThan"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2025-4be4-2f36-91ad" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="30ed-a3f4-6f9d-d36e" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -686,6 +692,9 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="49f7-a8c4-9473-4be3" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e41e-350f-e9ea-d554" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bb19-e7c3-8901-94df" type="lessThan"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e548-295a-68ae-00d3" type="lessThan"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2025-4be4-2f36-91ad" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="30ed-a3f4-6f9d-d36e" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -800,6 +809,7 @@
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b3f2-940c-7c08-f4fc" type="lessThan"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e548-295a-68ae-00d3" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1253,6 +1263,69 @@
               </selectionEntries>
               <selectionEntryGroups/>
               <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="703c-9624-8b0a-6968" name="Heavy weapon trooper" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f0ad-549f-d762-43bc" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fa31-931b-146c-aca0" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="9e5f-7b4d-2401-78d2" name="Karist Trooper w/ Cybel Lance" hidden="false" targetId="ee64-a7a5-66b7-2b1f" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="db16-c87d-323d-038b" value="5">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccd8-bb48-f02c-af5e" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="92c8-d0d5-232c-3f51" name="Karist Trooper w/ Ravager Vulcan Pulse Cannon" hidden="false" targetId="0ca4-4dd0-b4c9-e65b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="db16-c87d-323d-038b" value="4">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a60-e4d5-263f-fd51" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="9a1e-d682-bc6e-9f3f" name="Karist Trooper w/ Ripper Heavy Grenade Launcher" hidden="false" targetId="26cc-a307-911a-bf7e" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="db16-c87d-323d-038b" value="5">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06d1-e6f2-cde6-e84e" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks/>
@@ -3802,6 +3875,307 @@
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c05b-410c-1180-1c36" name="Karist Heavy Squad" book="" page="" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="bda0-b1e9-40a7-df57" name="New CategoryLink" hidden="false" targetId="c70f-ac61-5a64-4551" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="12ab-9536-07e1-6307" name=" Karist Trooper Quintarch" hidden="false" collective="false" type="model">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="c2a2-27d6-3329-1d09" name="New InfoLink" hidden="false" targetId="e2ff-56d3-3e66-10ec" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a0ae-d049-5225-a6aa" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ab9a-9d18-3775-634e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="0641-149c-f6de-cf41" name="Carbine options" hidden="false" collective="false" defaultSelectionEntryId="c885-040e-d22f-0b0b">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6037-f01a-6a38-789e" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b30c-5bcf-edfd-be59" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="c885-040e-d22f-0b0b" name="New EntryLink" hidden="false" targetId="f396-4635-381b-2b1c" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cef6-ba6b-c874-0b02" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="af4a-7586-33c2-b356" name="New EntryLink" hidden="false" targetId="3bc2-9f82-b8bd-0975" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="db16-c87d-323d-038b" value="1">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e4fc-e28b-ac81-b4cd" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="18ec-fd86-441a-ef24" name="Sidearm options" hidden="false" collective="false" defaultSelectionEntryId="cac1-89fa-bf37-1e42">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9dca-fcd0-408d-9246" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="64bf-e12c-ca7d-2162" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="e4b0-c745-b1d5-71da" name="New EntryLink" hidden="false" targetId="6fc9-6ca4-526c-c9c8" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="62f4-849c-45b7-dbd0" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="cac1-89fa-bf37-1e42" name="New EntryLink" hidden="false" targetId="83e3-71b1-f6d5-6aa4" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d69a-9c2a-da9a-5301" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="5d4b-d964-93d8-b9d9" name="New EntryLink" hidden="false" targetId="3e47-e12a-a5f5-6f7c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9077-22f0-27e5-0453" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6dea-4ee4-488d-2e79" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="6ca8-3243-1b13-438f" name="New EntryLink" hidden="false" targetId="1029-b73e-75a0-50ea" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fbea-57f5-1627-c1ce" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="024f-11b1-08e6-9c49" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="db16-c87d-323d-038b" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="87b8-fce0-9e19-382e" name="Troopers" hidden="false" collective="false" defaultSelectionEntryId="92b8-de1a-a0a1-8a09">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c1b6-5b8a-1baf-b139" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1a8e-07fc-3219-526c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="92b8-de1a-a0a1-8a09" name="Karist Trooper" hidden="false" collective="false" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="35b2-46e1-aea6-dd3c" name="New InfoLink" hidden="false" targetId="67ff-4745-1f48-9a85" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" field="db16-c87d-323d-038b" value="3">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c259-f605-dcbb-0e5f" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="2dd3-b6ff-4fa9-fb05" name="New EntryLink" hidden="false" targetId="1029-b73e-75a0-50ea" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="33c8-7a82-d911-c331" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b077-4f92-e186-cb58" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="5652-f85b-0577-bd88" name="New EntryLink" hidden="false" targetId="f396-4635-381b-2b1c" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="527b-c2e0-d45c-1553" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="56f4-e4e8-a7ed-2458" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="1012-012d-0250-24ad" name="New EntryLink" hidden="false" targetId="83e3-71b1-f6d5-6aa4" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6183-a680-ce35-890c" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="97d2-7ff1-6d14-9b30" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="8ab4-cc01-de83-d4e4" name="New EntryLink" hidden="false" targetId="3e47-e12a-a5f5-6f7c" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="13a9-4812-d20e-92e3" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="296f-916d-f32e-8755" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="537f-74c0-c9c3-9f51" name="Heavy weapon trooper" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fef5-c3ec-d07b-d785" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8694-0e92-d26f-2909" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="21b5-d003-88a7-3900" name="Karist Trooper w/ Cybel Lance" hidden="false" targetId="ee64-a7a5-66b7-2b1f" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="db16-c87d-323d-038b" value="6">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49f9-a89d-62b2-de9f" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="233a-da9d-8b1c-c429" name="Karist Trooper w/ Ravager Vulcan Pulse Cannon" hidden="false" targetId="0ca4-4dd0-b4c9-e65b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="db16-c87d-323d-038b" value="5">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8670-5107-475c-8a04" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="4b98-bd99-f796-23c8" name="Karist Trooper w/ Ripper Heavy Grenade Launcher" hidden="false" targetId="26cc-a307-911a-bf7e" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="db16-c87d-323d-038b" value="6">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a254-2b2c-1433-8800" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
@@ -4181,7 +4555,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="04e0-e5e6-ccd6-a0f2" name="New InfoLink" hidden="false" targetId="01cb-33e3-f4c9-1909" type="profile">
+        <infoLink id="04e0-e5e6-ccd6-a0f2" name="Ravager Vulcan Pulse Cannon" hidden="false" targetId="01cb-33e3-f4c9-1909" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4551,6 +4925,263 @@
       <rules/>
       <infoLinks>
         <infoLink id="bfde-687b-11e2-d0da" name="Cybel Blast" hidden="false" targetId="65b0-736c-9ee4-462f" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e548-295a-68ae-00d3" name="Cybel Lance" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7c46-9ecf-5065-ea01" name="Cybel Lance" hidden="false" targetId="b694-7600-9558-f3c0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="2025-4be4-2f36-91ad" name="Ripper Heavy Grenade Launcher" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="954c-7d2f-f6f0-69bb" name="Ripper Heavy Grenade Launcher" hidden="false" targetId="e9a7-6ec6-45b9-b3c4" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="ee64-a7a5-66b7-2b1f" name="Karist Trooper w/ Cybel Lance" book="" page="" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7762-1c7b-eb6e-5cb5" name="Karist Trooper" hidden="false" targetId="67ff-4745-1f48-9a85" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="9667-6018-da70-e5ea" name="Commune Reactor" hidden="false" targetId="1029-b73e-75a0-50ea" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ded9-a37f-f7b4-4457" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3e77-9166-79a1-da98" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5b55-3c52-06c5-299b" name="New EntryLink" hidden="false" targetId="83e3-71b1-f6d5-6aa4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="212d-487b-8afb-85dc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a270-ee9e-8d27-b533" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4774-86d6-a1a1-212d" name="New EntryLink" hidden="false" targetId="3e47-e12a-a5f5-6f7c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="563e-354b-d14d-2200" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aae8-2697-17b4-897e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c429-68b1-d720-0246" name="Cybel Lance" hidden="false" targetId="e548-295a-68ae-00d3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32f5-3e87-59b6-a718" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1633-acc0-d53b-3848" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="26cc-a307-911a-bf7e" name="Karist Trooper w/ Ripper Heavy Grenade Launcher" book="" page="" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6c88-f138-8015-6818" name="Karist Trooper" hidden="false" targetId="67ff-4745-1f48-9a85" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f32b-6a6b-a54a-7fed" name="Commune Reactor" hidden="false" targetId="1029-b73e-75a0-50ea" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6734-f6db-ce5b-e674" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="60b3-20b0-3924-6fe9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="58b0-9365-3b79-fcc6" name="New EntryLink" hidden="false" targetId="83e3-71b1-f6d5-6aa4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="348b-1b73-9a96-3e15" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="33ed-d442-e914-cfd4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6e10-01c5-6d1d-5980" name="New EntryLink" hidden="false" targetId="3e47-e12a-a5f5-6f7c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0c3b-3924-dff2-446f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="05fa-e587-e339-b60f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5984-52e8-9b48-63db" name="Ripper Heavy Grenade Launcher" hidden="false" targetId="2025-4be4-2f36-91ad" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecea-6dc7-3677-75ab" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6462-8b36-bc8c-93bc" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0ca4-4dd0-b4c9-e65b" name="Karist Trooper w/ Ravager Vulcan Pulse Cannon" book="" page="" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="56f4-19d5-a13f-cfb3" name="Karist Trooper" hidden="false" targetId="67ff-4745-1f48-9a85" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="7c63-48cf-094c-8362" name="Commune Reactor" hidden="false" targetId="1029-b73e-75a0-50ea" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7083-34a1-9752-f510" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ee07-4e60-5daa-6e04" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c35f-5796-9817-1b34" name="New EntryLink" hidden="false" targetId="83e3-71b1-f6d5-6aa4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9722-d050-90bd-20a5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b57a-1a62-c4de-e58b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7e01-4e5d-0627-f546" name="New EntryLink" hidden="false" targetId="3e47-e12a-a5f5-6f7c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="35b2-6970-5bb0-b63f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2053-38e5-81fb-76a1" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="38cd-205f-7dd5-aafe" name="Ravager Vulcan Pulse Cannon" hidden="false" targetId="30ed-a3f4-6f9d-d36e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddfd-b7a9-1ab5-5966" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a98-f454-ed01-5784" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="30ed-a3f4-6f9d-d36e" name="Ravager Vulcan Pulse Cannon" book="The Karist Enclave faction book" page="17" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="70d1-2cb3-85d8-d95d" name="Ravager Vulcan Pulse Cannon" hidden="false" targetId="01cb-33e3-f4c9-1909" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5183,6 +5814,32 @@ When deploying a Mature Angel, choose its starting form. This form lasts until t
         <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="4"/>
         <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="1"/>
         <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="AoE (SB), Explosive (6+)"/>
+      </characteristics>
+    </profile>
+    <profile id="b694-7600-9558-f3c0" name="Cybel Lance" hidden="false" profileTypeId="0063-d0e3-f342-8e26" profileTypeName="Weapon profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="RNG" characteristicTypeId="9323-301d-a90c-af97" value="30"/>
+        <characteristic name="SHO" characteristicTypeId="59c9-9867-29e6-7329" value="2"/>
+        <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="5"/>
+        <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="3"/>
+        <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="Beam, Explosive (6+), Heavy"/>
+      </characteristics>
+    </profile>
+    <profile id="e9a7-6ec6-45b9-b3c4" name="Ripper Heavy Grenade Launcher" hidden="false" profileTypeId="0063-d0e3-f342-8e26" profileTypeName="Weapon profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="RNG" characteristicTypeId="9323-301d-a90c-af97" value="24&quot;"/>
+        <characteristic name="SHO" characteristicTypeId="59c9-9867-29e6-7329" value="2+SB"/>
+        <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="3"/>
+        <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="1"/>
+        <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="AoE(SB), Explosive (6+), Heavy, Ignore Cover, Suppress (1)"/>
       </characteristics>
     </profile>
   </sharedProfiles>

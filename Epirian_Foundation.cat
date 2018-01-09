@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="404c-f039-33d5-bfb3" name="Epirian Foundation" book="The Epirian Foundation faction book" revision="6" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="404c-f039-33d5-bfb3" name="Epirian Foundation" book="The Epirian Foundation faction book" revision="7" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -617,7 +617,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="fe18-4671-d315-32fa" name="New InfoLink" hidden="false" targetId="656f-2a93-b7a5-5036" type="rule">
+        <infoLink id="fe18-4671-d315-32fa" name="Aerial Uplink Micro-drone" hidden="false" targetId="656f-2a93-b7a5-5036" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -904,7 +904,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="ef79-0875-d063-663f" name="New InfoLink" hidden="false" targetId="df84-84de-f1f6-e73c" type="rule">
+        <infoLink id="ef79-0875-d063-663f" name="Long Ranged (+X&quot;)" hidden="false" targetId="df84-84de-f1f6-e73c" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -916,6 +916,9 @@
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93d0-46f4-fecd-2df2" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7a91-2883-41e1-b3bd" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="11dd-0892-1fa0-9ff6" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ddce-0f57-5da5-9473" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1106,6 +1109,27 @@
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0e8b-f823-b36b-bf63" type="lessThan"/>
               </conditions>
               <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="63ce-37c7-a6c4-d692" name="Smart" hidden="false" targetId="d2bf-b8b1-d388-ce84" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="11dd-0892-1fa0-9ff6" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ddce-0f57-5da5-9473" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7a91-2883-41e1-b3bd" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </infoLink>

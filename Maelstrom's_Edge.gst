@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="49cd-4f53-908d-4074" name="Maelstrom&apos;s Edge" revision="6" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="49cd-4f53-908d-4074" name="Maelstrom&apos;s Edge" revision="7" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -620,6 +620,13 @@ Also:
       <infoLinks/>
       <modifiers/>
       <description>(exclusive ability) Ignore 1 hit each round of shooting. Cannot be used when pinned or the same round that cover or another ability ignores hits.</description>
+    </rule>
+    <rule id="64df-0542-eb45-1db2" name="Xeno" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Xenos are organic models (for attacks, abilities, etc., that specify they affect organic models). Xeno behemoths do not explode when they are destroyed.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0a23-2860-f7f4-1ea1" name="Broken" revision="5" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0a23-2860-f7f4-1ea1" name="Broken" revision="6" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1029,6 +1029,7 @@
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="402d-ce67-63fe-dcdf" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d02f-ffe2-c9a7-154a" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1210,6 +1211,7 @@
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e101-60b8-19e8-9e9a" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d02f-ffe2-c9a7-154a" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1311,6 +1313,139 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="ddf4-818b-a8f2-3a98" name="Behemoth (model type)" hidden="false" targetId="9c51-9b1d-f758-b494" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d02f-ffe2-c9a7-154a" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9549-bd25-dc66-b23e" name="Bloodthirsty" hidden="false" targetId="535b-c205-3fce-a2b9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d02f-ffe2-c9a7-154a" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="66a8-2bbe-341d-f566" name="Solo (designator)" hidden="false" targetId="4eec-1b95-aaeb-a161" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ee0a-f878-fcc1-2d99" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="7e02-7158-8671-d838" name="Field (X)" hidden="false" targetId="86f2-9202-b7be-c3bf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5ab-bd0e-b82b-06e7" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="63a7-58e1-323b-9305" name="Disruptor" hidden="false" targetId="c103-ec36-e2b2-32fa" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="169e-a0ba-1c64-faba" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b154-4323-4bee-9d09" name="Xeno" hidden="false" targetId="64df-0542-eb45-1db2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d02f-ffe2-c9a7-154a" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ba3e-53c1-b80d-9a32" name="Targeting Scrambler" hidden="false" targetId="a39f-7a98-ceea-fa71" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5ab-bd0e-b82b-06e7" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier type="set" field="e53d-9728-0e79-841a" value="1">
@@ -1337,6 +1472,74 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="45e9-4063-f3fc-63ca" name="Gnolti (Multi-unit selection)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="fcba-1e98-b157-caef" name="New CategoryLink" hidden="false" targetId="c70f-ac61-5a64-4551" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="3c0a-5e71-2367-c458" name="Gnolti" hidden="false" targetId="d02f-ffe2-c9a7-154a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a0e-9335-c4b1-e857" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec84-7980-134d-4885" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a71-4085-626d-5801" name="Sig Jammer (Multi-unit selection)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="196b-f450-7e41-59d9" name="New CategoryLink" hidden="false" targetId="92db-6165-172b-1666" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="282a-ef12-f875-58e9" name="Sig Jammer" hidden="false" targetId="ee0a-f878-fcc1-2d99" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4406-6622-0cf6-ef09" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1be2-8c49-4c83-10f8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
       </costs>
@@ -1988,6 +2191,174 @@
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="3.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="d02f-ffe2-c9a7-154a" name="Gnolti" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6789-0638-f94d-4dd5" name="Gnolti" hidden="false" targetId="8844-38b9-3907-667e" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f9e0-f892-9898-ee4e" name="Bloodthirsty" hidden="false" targetId="535b-c205-3fce-a2b9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b7ec-c417-c440-6503" name="Fire Magnet" hidden="false" targetId="bb0d-b387-f282-ff3e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a479-9d76-2dfd-3885" name="Regeneration" hidden="false" targetId="c4ac-7a52-dc2e-669b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="a9ab-ca5a-5fb7-7ca0" name="Massive Fist" hidden="false" targetId="b307-0955-e03b-10d4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbd8-1e84-a867-a26d" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9099-bd5a-ede5-a539" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b307-0955-e03b-10d4" name="Massive Fist" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ce8f-b4c2-b9ce-d93e" name="Massive Fist" hidden="false" targetId="2c10-59de-09e1-14ba" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ee0a-f878-fcc1-2d99" name="Sig Jammer" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="17ac-36dc-7bc7-4f09" name="Sig Jammer" hidden="false" targetId="8636-752d-bd02-a858" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="85ec-7613-cdc2-8ed2" name="Scout" hidden="false" targetId="d91e-c086-b99c-1e28" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="e54b-d03c-503f-987e" name="Grenade Harness" hidden="false" targetId="4d69-548c-8ffa-ba3d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2670-85c9-6468-ff72" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dffb-dfaf-f9ba-0d26" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f5ab-bd0e-b82b-06e7" name="Targeting Scrambler" hidden="false" targetId="97ec-0c64-bd1f-0f0d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a06-ceeb-6ae9-3f55" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b6f-ddcb-3367-2032" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="169e-a0ba-1c64-faba" name="Tech Disruptor" hidden="false" targetId="78d1-c800-3f24-70ef" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e04b-9423-ee17-63a3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd6f-054f-b388-d03a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="97ec-0c64-bd1f-0f0d" name="Targeting Scrambler" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="78d1-c800-3f24-70ef" name="Tech Disruptor" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="882e-04cf-e6d0-393e" name="Tech Disruptor" hidden="false" targetId="f9fd-54dc-2702-fd8b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -2058,6 +2429,36 @@ Now You Don’t: Once per turn, when you remove one of your units from the table
 In any future turn, a unit that was put into reserve via the Shadow Strike ability can either elect to arrive normally, or may instead deploy via the Shadow Strike main action. The Shadow Strike action allows the unit to be placed anywhere on the table that is both entirely in cover and at least 12” away from the enemy, and then, after being placed this way, the unit may fire a single round of wild shooting. A unit that is placed on the table via the Shadow Strike action counts as having moved.
 
 When putting a Broken infantry unit into reserve before the game, its owning player may declare that the unit will arrive during the game via the Shadow Strike main action described above. Only a single Broken unit per side (including a joined character) may start the game this way.</description>
+    </rule>
+    <rule id="bb0d-b387-f282-ff3e" name="Fire Magnet" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A unit with the Fire Magnet ability shields friendly units within 3”. Shielded units cannot be selected as a primary target for a round of shooting, provided the fire magnet unit is both closer to the shooting unit and a valid target. Shooting that dictates a specific target (CQ fighting, defensive fire, hit &amp; run, etc.) ignores this ability. A unit inside a building cannot shield other units, nor can large models be shielded by standard sized models.</description>
+    </rule>
+    <rule id="c4ac-7a52-dc2e-669b" name="Regeneration" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit shakes-off an extra D3 STs when completing its main action not on the move. In addition, if the unit contains any multi-fortitude models, it can forgo removing some of its STs to instead heal an injury. To heal an injury, the unit must forgo removing a number of STs equal to the injured multi-wound model’s MAS characteristic. So to heal an injury on a MAS 3 model, a unit would have to forgo removing 3 STs. A model cannot heal more than one injury per turn this way. </description>
+    </rule>
+    <rule id="c103-ec36-e2b2-32fa" name="Disruptor" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This weapon does not cause hits or damage. When fired, as long as the shooting is not wild, choose one of the following options:
+• Low Power: The target gains 1 additional ST.
+• Full Power: The target gains 1+D3 additional STs, but the firing model’s Field ability is reduced to 1 until it activates next turn. The full power option may not be chosen if the firing model’s Field ability is currently reduced to 1 (or less).</description>
+    </rule>
+    <rule id="a39f-7a98-ceea-fa71" name="Targeting Scrambler" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This model has the Field (4) ability and for each hit ignored by this ability, the firing unit also gains 1 ST. This ability cannot ignore hits from short range or CQ fighting attacks. </description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -2328,6 +2729,64 @@ When putting a Broken infantry unit into reserve before the game, its owning pla
         <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="2"/>
         <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="1"/>
         <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="AoE (SPR), Suppress (D3)"/>
+      </characteristics>
+    </profile>
+    <profile id="8844-38b9-3907-667e" name="Gnolti" hidden="false" profileTypeId="051a-8687-d9dc-f6f6" profileTypeName="Model profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="MV" characteristicTypeId="8f34-88f2-7438-3ce1" value="4"/>
+        <characteristic name="EVS" characteristicTypeId="7dda-8964-bbea-4c5d" value="1"/>
+        <characteristic name="SKL" characteristicTypeId="22e9-4178-2115-c4ff" value="3"/>
+        <characteristic name="AV" characteristicTypeId="092f-8cfc-c198-baa3" value="5/3"/>
+        <characteristic name="MAS" characteristicTypeId="2fb8-2427-e085-37e3" value="3"/>
+        <characteristic name="FOR" characteristicTypeId="0099-0e19-9d1a-09eb" value="4"/>
+        <characteristic name="WP" characteristicTypeId="ed7f-36de-52b3-4a3d" value="3"/>
+        <characteristic name="Model type" characteristicTypeId="db37-3912-9d9a-4f5b" value="Behemoth (Xeno)"/>
+      </characteristics>
+    </profile>
+    <profile id="2c10-59de-09e1-14ba" name="Massive Fist" hidden="false" profileTypeId="0063-d0e3-f342-8e26" profileTypeName="Weapon profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="RNG" characteristicTypeId="9323-301d-a90c-af97" value="CQ"/>
+        <characteristic name="SHO" characteristicTypeId="59c9-9867-29e6-7329" value="-"/>
+        <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="+2"/>
+        <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="2"/>
+        <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="Heavy, Melee"/>
+      </characteristics>
+    </profile>
+    <profile id="8636-752d-bd02-a858" name="Sig Jammer" hidden="false" profileTypeId="051a-8687-d9dc-f6f6" profileTypeName="Model profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="MV" characteristicTypeId="8f34-88f2-7438-3ce1" value="7"/>
+        <characteristic name="EVS" characteristicTypeId="7dda-8964-bbea-4c5d" value="3"/>
+        <characteristic name="SKL" characteristicTypeId="22e9-4178-2115-c4ff" value="2"/>
+        <characteristic name="AV" characteristicTypeId="092f-8cfc-c198-baa3" value="2"/>
+        <characteristic name="MAS" characteristicTypeId="2fb8-2427-e085-37e3" value="2"/>
+        <characteristic name="FOR" characteristicTypeId="0099-0e19-9d1a-09eb" value="2"/>
+        <characteristic name="WP" characteristicTypeId="ed7f-36de-52b3-4a3d" value="2"/>
+        <characteristic name="Model type" characteristicTypeId="db37-3912-9d9a-4f5b" value="Infantry (Human, Solo)"/>
+      </characteristics>
+    </profile>
+    <profile id="f9fd-54dc-2702-fd8b" name="Tech Disruptor" hidden="false" profileTypeId="0063-d0e3-f342-8e26" profileTypeName="Weapon profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="RNG" characteristicTypeId="9323-301d-a90c-af97" value="18&quot;"/>
+        <characteristic name="SHO" characteristicTypeId="59c9-9867-29e6-7329" value="-"/>
+        <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="-"/>
+        <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="-"/>
+        <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="Disruptor"/>
       </characteristics>
     </profile>
   </sharedProfiles>

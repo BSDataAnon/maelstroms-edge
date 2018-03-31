@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0a23-2860-f7f4-1ea1" name="Broken" revision="6" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0a23-2860-f7f4-1ea1" name="Broken" revision="7" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -225,7 +225,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="17f9-d09c-9ce7-603b" value="4">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="653c-ad4a-02df-79a3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="133a-5462-76a2-adaf" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbfd-921f-7e28-950a" type="min"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17f9-d09c-9ce7-603b" type="max"/>
@@ -323,7 +331,19 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="133a-5462-76a2-adaf" name="Marsayan Hypnotist" hidden="false" targetId="7d5c-ed73-c088-02ba" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ceb6-2416-9078-806f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ec3-4424-2593-07d7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="1.0"/>
       </costs>
@@ -446,7 +466,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="00fc-07c0-5c37-2216" value="4">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="6561-5bc9-bb13-dd26" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d5c-ed73-c088-02ba" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f202-9f9a-f1d2-0466" type="min"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00fc-07c0-5c37-2216" type="max"/>
@@ -544,7 +572,25 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="997a-d57d-246e-834a" name="Marsayan Hypnotist" hidden="false" targetId="7d5c-ed73-c088-02ba" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="db16-c87d-323d-038b" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a0e-4339-45bf-f788" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a06-e48a-910b-24d8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
       </costs>
@@ -661,7 +707,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="dec7-9682-ef50-a630" value="4">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="a391-7191-d014-ec47" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d5c-ed73-c088-02ba" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d3f-9630-f6a3-4eba" type="min"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dec7-9682-ef50-a630" type="max"/>
@@ -755,7 +809,19 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="cdc0-b857-fa53-6a05" name="Marsayan Hypnotist" hidden="false" targetId="7d5c-ed73-c088-02ba" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44ee-46f7-91ac-69ef" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94c4-7231-019e-f73f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="1.0"/>
       </costs>
@@ -1420,6 +1486,7 @@
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d02f-ffe2-c9a7-154a" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7d5c-ed73-c088-02ba" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -2359,6 +2426,39 @@
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7d5c-ed73-c088-02ba" name="Marsayan Hypnotist" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="30da-f25c-d700-0a9d" name="Marsayan Hypnotist" hidden="false" targetId="967a-d567-e2fd-cf55" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9ecf-197c-b2b6-797a" name="Mob Mentality" hidden="false" targetId="51cd-7e17-5247-ad63" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fdad-cd95-9d29-3d39" name="Hypnotist" hidden="false" targetId="e6d2-7a5b-3f37-8d92" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -2459,6 +2559,13 @@ When putting a Broken infantry unit into reserve before the game, its owning pla
       <infoLinks/>
       <modifiers/>
       <description>This model has the Field (4) ability and for each hit ignored by this ability, the firing unit also gains 1 ST. This ability cannot ignore hits from short range or CQ fighting attacks. </description>
+    </rule>
+    <rule id="e6d2-7a5b-3f37-8d92" name="Hypnotist" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit is always a fleeting target. In addition, all models in this unit have the Dodge (3) ability against short ranged shooting and CQ fighting. </description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -2787,6 +2894,22 @@ When putting a Broken infantry unit into reserve before the game, its owning pla
         <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="-"/>
         <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="-"/>
         <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="Disruptor"/>
+      </characteristics>
+    </profile>
+    <profile id="967a-d567-e2fd-cf55" name="Marsayan Hypnotist" hidden="false" profileTypeId="051a-8687-d9dc-f6f6" profileTypeName="Model profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="MV" characteristicTypeId="8f34-88f2-7438-3ce1" value="7"/>
+        <characteristic name="EVS" characteristicTypeId="7dda-8964-bbea-4c5d" value="4"/>
+        <characteristic name="SKL" characteristicTypeId="22e9-4178-2115-c4ff" value="2"/>
+        <characteristic name="AV" characteristicTypeId="092f-8cfc-c198-baa3" value="2"/>
+        <characteristic name="MAS" characteristicTypeId="2fb8-2427-e085-37e3" value="2"/>
+        <characteristic name="FOR" characteristicTypeId="0099-0e19-9d1a-09eb" value="1"/>
+        <characteristic name="WP" characteristicTypeId="ed7f-36de-52b3-4a3d" value="2*"/>
+        <characteristic name="Model type" characteristicTypeId="db37-3912-9d9a-4f5b" value="Infantry (Xeno)"/>
       </characteristics>
     </profile>
   </sharedProfiles>

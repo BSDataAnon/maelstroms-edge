@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="404c-f039-33d5-bfb3" name="Epirian Foundation" book="The Epirian Foundation faction book" revision="7" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="404c-f039-33d5-bfb3" name="Epirian Foundation" book="The Epirian Foundation faction book" revision="8" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -213,6 +213,110 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
+    <forceEntry id="6fbe-6d35-4315-13ed" name="Master Bot Handler detachment" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="6fbe-6d35-4315-13ed" value="8.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0a6c-355c-8691-a7dc" type="max"/>
+      </constraints>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="1669-ee21-b981-abfa" name="Command" hidden="false" targetId="ceb9-cdff-5047-ce6c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8250-b652-6684-bed3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="931e-91be-9999-2a60" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="391d-bcb9-0035-02c4" name="Core" hidden="false" targetId="6b1e-e5f2-496a-ea94" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20e4-f1e4-cdf3-3b98" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b90a-3fda-6626-82b0" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="fa0b-db7c-0167-86a1" name="Hammer" hidden="false" targetId="2cba-258f-2d61-acac" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="dece-2701-3597-d2bb" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b1e-e5f2-496a-ea94" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="dece-2701-3597-d2bb" value="0.0">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b1e-e5f2-496a-ea94" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dece-2701-3597-d2bb" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="6c1a-6c83-d56a-0ed8" name="Vanguard" hidden="false" targetId="92db-6165-172b-1666" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="7c94-e26d-9284-a735" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b1e-e5f2-496a-ea94" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="7c94-e26d-9284-a735" value="0.0">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b1e-e5f2-496a-ea94" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c94-e26d-9284-a735" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="1851-22c6-d7be-f164" name="Anvil" hidden="false" targetId="c70f-ac61-5a64-4551" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="dddf-e049-f800-2636" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b1e-e5f2-496a-ea94" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="dddf-e049-f800-2636" value="0.0">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b1e-e5f2-496a-ea94" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dddf-e049-f800-2636" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
   <selectionEntries>
     <selectionEntry id="7529-283b-dd13-746e" name="Journeyman Bot Handler" book="The Epirian Foundation faction book" page="9" hidden="true" collective="false" type="unit">
@@ -247,9 +351,16 @@
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="set" field="1bd7-407f-f363-f4de" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="a6d4-4ad8-bbcc-81db" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1bd7-407f-f363-f4de" type="min"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1bd7-407f-f363-f4de" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7964-e27e-900d-1201" type="max"/>
       </constraints>
       <categoryLinks>
@@ -404,6 +515,8 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ef69-421d-1e0f-8fe8" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5288-c404-94a9-c2ae" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ddce-0f57-5da5-9473" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fb8e-7825-9da2-4e8c" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f841-befc-3ab6-0e34" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -425,6 +538,8 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="11dd-0892-1fa0-9ff6" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ddce-0f57-5da5-9473" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7a91-2883-41e1-b3bd" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fb8e-7825-9da2-4e8c" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f841-befc-3ab6-0e34" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -589,10 +704,16 @@
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <repeats/>
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7529-283b-dd13-746e" type="lessThan"/>
-              </conditions>
-              <conditionGroups/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7529-283b-dd13-746e" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4c3c-059c-736d-24e5" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </infoLink>
@@ -610,6 +731,7 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7529-283b-dd13-746e" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="25f4-ea28-ce00-086f" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8115-854e-a58b-b7c3" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4c3c-059c-736d-24e5" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -636,7 +758,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="227d-754f-a4b6-5d62" name="New InfoLink" hidden="false" targetId="66c9-cefd-6206-9c02" type="rule">
+        <infoLink id="227d-754f-a4b6-5d62" name="Command Booster Micro-drone" hidden="false" targetId="66c9-cefd-6206-9c02" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -805,6 +927,7 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e10c-0154-c0c8-56d5" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="150c-f937-29b2-0d13" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="97d7-20d6-93d0-79d4" type="lessThan"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02c9-e0fc-44cb-b997" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -833,6 +956,8 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7a91-2883-41e1-b3bd" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="358a-cc08-9097-d1ba" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c069-f855-6826-a530" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fb8e-7825-9da2-4e8c" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f841-befc-3ab6-0e34" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -876,6 +1001,8 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ddce-0f57-5da5-9473" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9c8e-21ba-8dac-d0d2" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="358a-cc08-9097-d1ba" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fb8e-7825-9da2-4e8c" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f841-befc-3ab6-0e34" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1001,6 +1128,7 @@
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fafb-af6e-0114-eb99" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="36ca-fcdb-7661-934e" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4c3c-059c-736d-24e5" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1133,6 +1261,64 @@
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink id="3c94-1a1b-dbc5-7ce2" name="Neural Node" hidden="false" targetId="32e1-faf5-8be3-d81f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="49cf-8c0e-bd8d-73d1" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fb8e-7825-9da2-4e8c" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="72dc-9637-d7e9-0419" name="Linked weapons" hidden="false" targetId="6fc0-40e7-20d7-b5fe" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f841-befc-3ab6-0e34" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="30fb-ea6c-072b-ff8c" name="Bot Repairs (2D3)" hidden="false" targetId="1419-5029-d29c-12d2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9577-11a1-7e4c-a2e4" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier type="set" field="1e0f-230c-b531-ccfd" value="1">
@@ -1177,10 +1363,16 @@
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <repeats/>
-          <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="a6d4-4ad8-bbcc-81db" type="instanceOf"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="a6d4-4ad8-bbcc-81db" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="6fbe-6d35-4315-13ed" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints/>
@@ -1627,9 +1819,17 @@
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="set" field="b5bf-6ed5-ef14-9561" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="5f0f-8a99-05af-7f33" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5990-bf06-447b-168b" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5bf-6ed5-ef14-9561" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="36ca-fcdb-7661-934e-ceb9-cdff-5047-ce6c" hidden="false" targetId="ceb9-cdff-5047-ce6c" primary="true">
@@ -1762,10 +1962,16 @@
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <repeats/>
-          <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="a6d4-4ad8-bbcc-81db" type="instanceOf"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="a6d4-4ad8-bbcc-81db" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="6fbe-6d35-4315-13ed" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints/>
@@ -3183,6 +3389,270 @@ Automated Objective: Although a unit, it does not count as one towards any other
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4c3c-059c-736d-24e5" name="Master Bot Handler" hidden="true" collective="false" type="unit">
+      <profiles/>
+      <rules>
+        <rule id="e85a-8c86-0f30-ea53" name="Command (3) [2+1 from Neural Interface]" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8bb9-7476-359e-7e1f" name="Master Bot Handler" hidden="false" targetId="403c-8003-858e-0dae" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c7a5-f151-37f3-19c2" name="Heavy Gunner" hidden="false" targetId="f7dc-4d79-9ed4-645f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9649-fe86-b621-a4e9" name="Fire Assist (+1)" hidden="false" targetId="9547-139a-b846-77cd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ae6c-7876-3024-8bca" name="Bot Handler" hidden="false" targetId="3562-7b03-11d9-aae5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6fbe-6d35-4315-13ed" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="eff5-ef56-33f3-de25" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6fbe-6d35-4315-13ed" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e884-d5d8-327f-30e4" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eff5-ef56-33f3-de25" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="cdd0-55ec-45dc-17d9" name="New CategoryLink" hidden="false" targetId="ceb9-cdff-5047-ce6c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="915e-dbde-a198-5873" name="Backpack options" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d09-0735-6eec-5d99" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5f6-4a39-f6a8-6756" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="fb8e-7825-9da2-4e8c" name="Cluster Missile Pod &amp; Neural Node" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="1d66-71eb-a544-25d0" name="Cluster Missile Pod" hidden="false" targetId="b22e-549b-04e8-f3b4" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="db16-c87d-323d-038b" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f841-befc-3ab6-0e34" name="2 Linked Cluster Missile Pods" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="3398-8f4d-836f-17c4" name="Cluster Missile Pod" hidden="false" targetId="b22e-549b-04e8-f3b4" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="db16-c87d-323d-038b" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="49cf-8c0e-bd8d-73d1" name="2 Neural Nodes" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="db16-c87d-323d-038b" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7253-ff42-fd63-eeec" name="Arm options" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d667-ac08-a160-75b2" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cf8-bb70-9a15-f304" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="f109-c51c-1e12-a18d" name="Cutter Light Machine Gun" hidden="false" targetId="3718-4310-8306-6676" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="db16-c87d-323d-038b" value="1">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="134a-bb87-c3cd-3238" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="cf4f-c6d7-e32b-f91d" name="Drone Class Laser System" hidden="false" targetId="494b-1894-ee7d-4116" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="db16-c87d-323d-038b" value="1">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd10-5105-cc07-e611" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c5e0-1e2f-f1b1-c54f" name="Flakk Gun" hidden="false" targetId="5ce3-0266-53c3-711e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db9c-fb37-5495-b4ae" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="02c9-e0fc-44cb-b997" name="Repair Claw" hidden="false" targetId="9577-11a1-7e4c-a2e4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="974a-7a75-34e0-f3ae" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f6fd-3018-fdce-a0a6" name="Micro-drones" hidden="false" targetId="f61e-05e2-ffb5-a0e9" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3706-88e7-4bea-8905" name="Aerial Drone Strike" hidden="false" targetId="11dd-0892-1fa0-9ff6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a51-8bac-1945-fef6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa6d-4b95-47fd-d5a7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a56d-fa50-b0d7-acf3" name="EMP Grenades" hidden="false" targetId="de16-3202-956c-dd67" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b53-8eb4-64ac-f914" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5aa6-5fce-4417-c2ad" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0a36-7c8e-c1c5-dae4" name="Neural Bot Interface" hidden="false" targetId="8a68-83d4-62bb-904a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2566-34fb-adb6-0a8b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4423-e36a-10ee-e1a4" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5a86-cc91-17d3-8cf8" name="Firefly Defender Drone" hidden="false" targetId="bfab-f061-63c0-b491" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8166-7a27-16a0-ecea" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b708-7680-5654-69ed" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="16.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
@@ -4094,13 +4564,13 @@ Automated Objective: Although a unit, it does not count as one towards any other
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="22bb-8932-c568-7d5f" name="New InfoLink" hidden="false" targetId="af7b-89cd-0cf9-df94" type="rule">
+        <infoLink id="22bb-8932-c568-7d5f" name="Bot Protocol - Defensive Maneuvers" hidden="false" targetId="af7b-89cd-0cf9-df94" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="93df-b8ea-bc58-6e3f" name="New InfoLink" hidden="false" targetId="d91e-c086-b99c-1e28" type="rule">
+        <infoLink id="93df-b8ea-bc58-6e3f" name="Scout" hidden="false" targetId="d91e-c086-b99c-1e28" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4112,7 +4582,7 @@ Automated Objective: Although a unit, it does not count as one towards any other
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="e939-af32-6d25-998f" name="New InfoLink" hidden="false" targetId="6e41-25eb-d2f9-d0bb" type="rule">
+        <infoLink id="e939-af32-6d25-998f" name="Dodge (1) [if &apos;Mobile unit&apos;]" hidden="false" targetId="6e41-25eb-d2f9-d0bb" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4125,7 +4595,7 @@ Automated Objective: Although a unit, it does not count as one towards any other
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="c58d-1386-e0aa-bad8" name="New EntryLink" hidden="false" targetId="5288-c404-94a9-c2ae" type="selectionEntry">
+        <entryLink id="c58d-1386-e0aa-bad8" name="Clingfire Pod" hidden="false" targetId="5288-c404-94a9-c2ae" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4347,6 +4817,80 @@ Automated Objective: Although a unit, it does not count as one towards any other
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9577-11a1-7e4c-a2e4" name="Repair Claw" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="35c0-3220-f9aa-f2e1" name="Repair Claw" hidden="false" targetId="d40c-1ffd-cf52-f705" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfab-f061-63c0-b491" name="Firefly Defender Drone" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2ad1-e140-c327-55b3" name="Firefly Defender Drone" hidden="false" targetId="f039-bdf3-344d-841d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8fb4-b45f-fb1c-c922" name="Dynamic Move" hidden="false" targetId="649e-9049-2d6f-064e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7406-ebcf-2ff8-df57" name="Bot Protocol - Swarm Defense" hidden="false" targetId="ba60-ff3c-da4d-3949" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5db0-cf2a-ab77-0d5b" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1102-ebec-0013-1f66" name="Drone Class Laser System" hidden="false" targetId="494b-1894-ee7d-4116" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="978e-20cb-fbfa-5e7c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="459b-9f1d-2f0f-5275" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="3.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="f61e-05e2-ffb5-a0e9" name="Micro-drones" hidden="false" collective="false">
@@ -4361,7 +4905,7 @@ Automated Objective: Although a unit, it does not count as one towards any other
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="cf5b-f46d-28b8-bd26" name="New EntryLink" hidden="false" targetId="fa55-7481-8779-a496" type="selectionEntry">
+        <entryLink id="cf5b-f46d-28b8-bd26" name="Aerial Uplink Micro-drone" hidden="false" targetId="fa55-7481-8779-a496" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4397,14 +4941,23 @@ Automated Objective: Although a unit, it does not count as one towards any other
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="430e-713f-b52c-b730" name="New EntryLink" hidden="false" targetId="a257-1516-5196-3722" type="selectionEntry">
+        <entryLink id="430e-713f-b52c-b730" name="Spotter Micro-drone" hidden="false" targetId="a257-1516-5196-3722" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="set" field="db16-c87d-323d-038b" value="2">
               <repeats/>
-              <conditions/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7529-283b-dd13-746e" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="db16-c87d-323d-038b" value="0.0">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c3c-059c-736d-24e5" type="instanceOf"/>
+              </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
@@ -4556,7 +5109,7 @@ Automated Objective: Although a unit, it does not count as one towards any other
       <modifiers/>
       <description>The model, and any unit it is joined to gains the Marksman (+3) ability, which does benefit an Aerial Drone Strike fired by that unit.</description>
     </rule>
-    <rule id="5fbf-4132-9c99-59dd" name="Minor Bot Repairs" book="Rulebook" page="107" hidden="false">
+    <rule id="5fbf-4132-9c99-59dd" name="Bot Repairs (D3)" book="Rulebook" page="107" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4639,6 +5192,34 @@ Automated Objective: Although a unit, it does not count as one towards any other
       <infoLinks/>
       <modifiers/>
       <description>(squad ability) When enabled, if the unit performs an Advance &amp; Fire main action, instead of the standard round of shooting normally allowed, it may make either a special focused fire or suppressive fire round of shooting.</description>
+    </rule>
+    <rule id="9547-139a-b846-77cd" name="Fire Assist (+1)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A model with this ability is able to fire 1 more weapon during each round of shooting than they are normally allowed. Note that when a model is not allowed to fire at all, this ability does not allow them to.</description>
+    </rule>
+    <rule id="32e1-faf5-8be3-d81f" name="Neural Node" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Each turn, as long as a command model does not fire as part of its main action, each Neural Node it is equipped with allows the model to issue an order to one more friendly unit than is normally allowed. Note that when a command model isn’t allowed to issue any orders at all, a Neural Node does not allow them to.</description>
+    </rule>
+    <rule id="ba60-ff3c-da4d-3949" name="Bot Protocol - Swarm Defense" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>(squad ability) While enabled, this unit has the Dodge (X) ability, with X equal to the current number of models in the unit with this bot protocol. When one or more hits are ignored by this Dodge during a round of shooting, immediately roll a D6. If the result is equal to or less than the number of hits that were ignored, then a single model in the unit with this bot protocol suffers an automatic injury.</description>
+    </rule>
+    <rule id="1419-5029-d29c-12d2" name="Bot Repairs (2D3)" book="Rulebook" page="107" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>(squad ability) When this unit completes an Advance &amp; Fire or Dash action, as long as it isn&apos;t on the move or pinned, it may select one friendly Foundation unit within 6&quot; that contains at least half robot models and isn&apos;t on the move itself. The selected unit immediately removes 2D3 STs. This ability cannot be used into or out of a building.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -5138,6 +5719,51 @@ Automated Objective: Although a unit, it does not count as one towards any other
         <characteristic name="FOR" characteristicTypeId="0099-0e19-9d1a-09eb" value="3"/>
         <characteristic name="WP" characteristicTypeId="ed7f-36de-52b3-4a3d" value="1"/>
         <characteristic name="Model type" characteristicTypeId="db37-3912-9d9a-4f5b" value="Vehicle (Robot, Solo)"/>
+      </characteristics>
+    </profile>
+    <profile id="403c-8003-858e-0dae" name="Master Bot Handler" hidden="false" profileTypeId="051a-8687-d9dc-f6f6" profileTypeName="Model profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="MV" characteristicTypeId="8f34-88f2-7438-3ce1" value="6"/>
+        <characteristic name="EVS" characteristicTypeId="7dda-8964-bbea-4c5d" value="3"/>
+        <characteristic name="SKL" characteristicTypeId="22e9-4178-2115-c4ff" value="4"/>
+        <characteristic name="AV" characteristicTypeId="092f-8cfc-c198-baa3" value="4"/>
+        <characteristic name="MAS" characteristicTypeId="2fb8-2427-e085-37e3" value="3"/>
+        <characteristic name="FOR" characteristicTypeId="0099-0e19-9d1a-09eb" value="2"/>
+        <characteristic name="WP" characteristicTypeId="ed7f-36de-52b3-4a3d" value="5"/>
+        <characteristic name="Model type" characteristicTypeId="db37-3912-9d9a-4f5b" value="Infantry (Human, Squad Leader, Solo)"/>
+      </characteristics>
+    </profile>
+    <profile id="d40c-1ffd-cf52-f705" name="Repair Claw" hidden="false" profileTypeId="0063-d0e3-f342-8e26" profileTypeName="Weapon profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="RNG" characteristicTypeId="9323-301d-a90c-af97" value="CQ"/>
+        <characteristic name="SHO" characteristicTypeId="59c9-9867-29e6-7329" value="-"/>
+        <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="+1"/>
+        <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="1"/>
+        <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="Bot Repairs (2D3), Melee"/>
+      </characteristics>
+    </profile>
+    <profile id="f039-bdf3-344d-841d" name="Firefly Defender Drone" hidden="false" profileTypeId="051a-8687-d9dc-f6f6" profileTypeName="Model profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="MV" characteristicTypeId="8f34-88f2-7438-3ce1" value="8"/>
+        <characteristic name="EVS" characteristicTypeId="7dda-8964-bbea-4c5d" value="5"/>
+        <characteristic name="SKL" characteristicTypeId="22e9-4178-2115-c4ff" value="3"/>
+        <characteristic name="AV" characteristicTypeId="092f-8cfc-c198-baa3" value="4"/>
+        <characteristic name="MAS" characteristicTypeId="2fb8-2427-e085-37e3" value="1"/>
+        <characteristic name="FOR" characteristicTypeId="0099-0e19-9d1a-09eb" value="1"/>
+        <characteristic name="WP" characteristicTypeId="ed7f-36de-52b3-4a3d" value="3"/>
+        <characteristic name="Model type" characteristicTypeId="db37-3912-9d9a-4f5b" value="Infantry (Hover, Robot)"/>
       </characteristics>
     </profile>
   </sharedProfiles>

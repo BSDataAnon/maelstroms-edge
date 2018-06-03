@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0a23-2860-f7f4-1ea1" name="Broken" revision="7" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0a23-2860-f7f4-1ea1" name="Broken" revision="8" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -877,7 +877,7 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="eb69-af80-2787-d1f6" name="Weapons" hidden="false" collective="false" defaultSelectionEntryId="6532-e632-ac4a-d7fa">
+        <selectionEntryGroup id="eb69-af80-2787-d1f6" name="Weapons (rifle, blastgun, or 2 smaller weapons)" hidden="false" collective="false" defaultSelectionEntryId="6532-e632-ac4a-d7fa">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -890,6 +890,19 @@
                   <conditions>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6532-e632-ac4a-d7fa" type="equalTo"/>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b66-e93b-f594-758f" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="3a2d-bb7a-f798-f987" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6532-e632-ac4a-d7fa" type="lessThan"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b66-e93b-f594-758f" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -954,6 +967,26 @@
               </constraints>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="a9a2-815e-730f-0258" name="Poisoned Blade" hidden="false" targetId="6da6-6c3a-16d5-f8d8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bcd-b9c6-fac1-7a16" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ea0a-c447-e3fc-8f34" name="Trophy Melee Weapon" hidden="false" targetId="fe71-75fe-0845-a60e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe3b-9012-bb47-a2bc" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -966,6 +999,22 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db63-dc44-4648-322f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81fe-2848-5979-db4b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b720-cd65-91fb-41c6" name="Xeno  Spotter" hidden="false" targetId="9c5c-3b05-b38c-b0c9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="db16-c87d-323d-038b" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5d4-4c04-cb2b-eb0e" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -1096,6 +1145,8 @@
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="402d-ce67-63fe-dcdf" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d02f-ffe2-c9a7-154a" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6da6-6c3a-16d5-f8d8" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe71-75fe-0845-a60e" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1158,6 +1209,7 @@
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ae39-b952-226b-dfe7" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6101-757a-eaec-e9fb" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6da6-6c3a-16d5-f8d8" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1506,6 +1558,25 @@
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5ab-bd0e-b82b-06e7" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3e23-bde2-1c72-5191" name="Relic" hidden="false" targetId="d93f-7b71-fdb7-78da" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe71-75fe-0845-a60e" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -2459,6 +2530,72 @@
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="1.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9c5c-3b05-b38c-b0c9" name="Xeno  Spotter" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="0b38-fb88-3b8c-9b77" name="Xeno  Spotter" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model&apos;s Booby Traps ability value is improved by +1. </description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6da6-6c3a-16d5-f8d8" name="Poisoned Blade" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1436-130c-8a4e-3da4" name="Poisoned Blade" hidden="false" targetId="30d6-197b-3f71-32b3" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fe71-75fe-0845-a60e" name="Trophy Melee Weapon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1415-3bd4-2db8-2185" name="Trophy Melee Weapon" hidden="false" targetId="491e-29a1-9e77-ec23" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ae03-d467-b734-f797" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -2566,6 +2703,13 @@ When putting a Broken infantry unit into reserve before the game, its owning pla
       <infoLinks/>
       <modifiers/>
       <description>This unit is always a fleeting target. In addition, all models in this unit have the Dodge (3) ability against short ranged shooting and CQ fighting. </description>
+    </rule>
+    <rule id="d93f-7b71-fdb7-78da" name="Relic" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Failed rolls to hit with this weapon may be re-rolled. Your force may not contain more than one relic weapon.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -2910,6 +3054,32 @@ When putting a Broken infantry unit into reserve before the game, its owning pla
         <characteristic name="FOR" characteristicTypeId="0099-0e19-9d1a-09eb" value="1"/>
         <characteristic name="WP" characteristicTypeId="ed7f-36de-52b3-4a3d" value="2*"/>
         <characteristic name="Model type" characteristicTypeId="db37-3912-9d9a-4f5b" value="Infantry (Xeno)"/>
+      </characteristics>
+    </profile>
+    <profile id="30d6-197b-3f71-32b3" name="Poisoned Blade" hidden="false" profileTypeId="0063-d0e3-f342-8e26" profileTypeName="Weapon profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="RNG" characteristicTypeId="9323-301d-a90c-af97" value="CQ"/>
+        <characteristic name="SHO" characteristicTypeId="59c9-9867-29e6-7329" value="-"/>
+        <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="+1"/>
+        <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="1"/>
+        <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="Melee, Poison (4+)"/>
+      </characteristics>
+    </profile>
+    <profile id="491e-29a1-9e77-ec23" name="Trophy Melee Weapon" hidden="false" profileTypeId="0063-d0e3-f342-8e26" profileTypeName="Weapon profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="RNG" characteristicTypeId="9323-301d-a90c-af97" value="CQ"/>
+        <characteristic name="SHO" characteristicTypeId="59c9-9867-29e6-7329" value="-"/>
+        <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="+2"/>
+        <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="2"/>
+        <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="Melee, Relic"/>
       </characteristics>
     </profile>
   </sharedProfiles>

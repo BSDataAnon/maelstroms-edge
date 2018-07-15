@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="404c-f039-33d5-bfb3" name="Epirian Foundation" book="The Epirian Foundation faction book" revision="8" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="404c-f039-33d5-bfb3" name="Epirian Foundation" book="The Epirian Foundation faction book" revision="9" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -475,7 +475,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="eb41-3808-e03d-e78d" name="New InfoLink" hidden="false" targetId="865a-54f5-5fc3-4045" type="rule">
+        <infoLink id="eb41-3808-e03d-e78d" name="Pistol" hidden="false" targetId="865a-54f5-5fc3-4045" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -489,6 +489,7 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d9d0-1800-0671-c939" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="787f-a3c0-d660-e0ed" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4e89-0831-0b42-87a3" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="52d1-6564-d178-fdec" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -717,7 +718,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="0128-c982-230e-e456" name="New InfoLink" hidden="false" targetId="af04-09e5-59bc-5614" type="rule">
+        <infoLink id="0128-c982-230e-e456" name="Human (designator)" hidden="false" targetId="af04-09e5-59bc-5614" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -732,6 +733,7 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="25f4-ea28-ce00-086f" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8115-854e-a58b-b7c3" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4c3c-059c-736d-24e5" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4016-a314-9b53-79b8" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -935,7 +937,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="841f-fda9-1d62-9453" name="New InfoLink" hidden="false" targetId="ea10-9f8a-7b7f-81f9" type="rule">
+        <infoLink id="841f-fda9-1d62-9453" name="Heavy" hidden="false" targetId="ea10-9f8a-7b7f-81f9" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -958,6 +960,7 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c069-f855-6826-a530" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fb8e-7825-9da2-4e8c" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f841-befc-3ab6-0e34" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9dec-8829-dd2c-8bd0" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -985,7 +988,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="3490-96f3-5dab-b3d9" name="New InfoLink" hidden="false" targetId="7c63-b24c-68cb-7332" type="rule">
+        <infoLink id="3490-96f3-5dab-b3d9" name="Burst (X+)" hidden="false" targetId="7c63-b24c-68cb-7332" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1003,6 +1006,8 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="358a-cc08-9097-d1ba" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fb8e-7825-9da2-4e8c" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f841-befc-3ab6-0e34" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9dec-8829-dd2c-8bd0" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b9c4-e221-de70-fded" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1046,6 +1051,7 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7a91-2883-41e1-b3bd" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="11dd-0892-1fa0-9ff6" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ddce-0f57-5da5-9473" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1475-b576-9927-1e1b" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1053,7 +1059,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="9809-1a58-0400-a074" name="New InfoLink" hidden="false" targetId="0024-e935-4640-fa2b" type="rule">
+        <infoLink id="9809-1a58-0400-a074" name="Sniper (X+)" hidden="false" targetId="0024-e935-4640-fa2b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1065,6 +1071,7 @@
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93d0-46f4-fecd-2df2" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1475-b576-9927-1e1b" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -3653,6 +3660,528 @@ Automated Objective: Although a unit, it does not count as one towards any other
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="16.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4016-a314-9b53-79b8" name="SecDef Tactical Team" hidden="true" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="bb85-dfe5-5a19-029b" name="Aerial Insertion" hidden="false" targetId="5b49-3560-87be-ce11" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bf73-fc62-3c1d-7a4e" name="Cover Drill" hidden="false" targetId="6e18-9f49-a406-6c38" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="db16-c87d-323d-038b" value="4">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="4016-a314-9b53-79b8" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="db16-c87d-323d-038b" value="8">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="4016-a314-9b53-79b8" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="a6d4-4ad8-bbcc-81db" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="6fbe-6d35-4315-13ed" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="687f-fb55-ea46-dd03" name="Hammer" hidden="false" targetId="2cba-258f-2d61-acac" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b5a8-b858-598b-46bc" name="SecDef Sergeant" hidden="false" collective="false" type="model">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6b35-f917-9784-1a0e" name="SecDef Sergeant" hidden="false" targetId="f0e8-8cfa-2fd8-cdc1" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c78b-152a-fd01-60d8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31ca-90eb-7d60-8769" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="e666-bbfb-1712-2bdb" name="Araldyne AR60 Assault Rifle" hidden="false" targetId="67d8-e019-d5d9-78d3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7be2-2b23-c230-fb8b" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e56c-7326-6214-c2b2" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="8354-8db5-dd4c-cf96" name="Araldyne G20 Pistol" hidden="false" targetId="52d1-6564-d178-fdec" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e0b-6d03-b695-9b40" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26c3-0c5e-3272-adea" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="957b-df8a-128e-2167" name="SecDef Infantry (note: +4 pts per model above squad size 3)" hidden="false" collective="false" defaultSelectionEntryId="dba0-1406-9162-8704">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75ae-93da-1c7d-4dfa" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cb6-9ed0-e170-e57d" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="dba0-1406-9162-8704" name="SecDef Infantry" hidden="false" collective="false" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c398-c212-bc9e-452f" name="SecDef Infantry" hidden="false" targetId="0f51-dae2-66f0-6b51" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="d165-89e4-b45c-eea4" name="Araldyne AR60 Assault Rifle" hidden="false" targetId="67d8-e019-d5d9-78d3" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcfd-832f-8799-201d" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1428-4ad0-932f-458c" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="bd99-1ddd-7064-6721" name="Araldyne G20 Pistol" hidden="false" targetId="52d1-6564-d178-fdec" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2abd-6eb0-2cc4-703f" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e47-4643-632e-9045" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs/>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="7992-4617-41d6-a89b" name="Max 2 Special Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e663-1e95-3c84-ba44" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="7090-a819-ed2b-a783" name="SecDef Infantry w/ Chaingun" hidden="false" collective="false" type="model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="3481-31f4-83b2-3c44" name="SecDef Infantry" hidden="false" targetId="0f51-dae2-66f0-6b51" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc14-12d7-3241-58ae" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b40d-21e2-8396-eb10" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="0fb8-95ad-6d2e-6cb1" name="Araldyne G20 Pistol" hidden="false" targetId="52d1-6564-d178-fdec" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cea-c511-99be-8ee4" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ced9-1e74-82bf-8bc3" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                    </entryLink>
+                    <entryLink id="a456-694e-47fa-5c70" name="Araldyne CG100 Chaingun" hidden="false" targetId="9dec-8829-dd2c-8bd0" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d997-de68-8c06-13d0" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="888e-d34e-dda6-3822" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" costTypeId="db16-c87d-323d-038b" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9654-c3cd-041b-31e0" name="SecDef Infantry w/ Machine Gun" hidden="false" collective="false" type="model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="4549-dea8-7650-a94f" name="SecDef Infantry" hidden="false" targetId="0f51-dae2-66f0-6b51" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8416-cff2-25dc-004a" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7645-08e3-d67d-6943" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="ad6e-f228-6bd4-8194" name="Araldyne G20 Pistol" hidden="false" targetId="52d1-6564-d178-fdec" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f1f-4762-d171-c259" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecb4-d071-7fbb-aa1f" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                    </entryLink>
+                    <entryLink id="fce0-0c0a-b1ed-b13f" name="Araldyne LM14 Machine Gun" hidden="false" targetId="b9c4-e221-de70-fded" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73bf-6f0a-6a31-0d0e" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db12-28d9-973f-00f8" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" costTypeId="db16-c87d-323d-038b" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="726c-f817-7ea3-2af7" name="SecDef Infantry w/ Sniper Rifle" hidden="false" collective="false" type="model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="a33a-56ed-d726-685e" name="SecDef Infantry" hidden="false" targetId="0f51-dae2-66f0-6b51" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0887-fd05-527a-d34c" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8310-819a-3c54-061d" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="e900-6b77-0a12-83a2" name="Araldyne G20 Pistol" hidden="false" targetId="52d1-6564-d178-fdec" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12d3-9a8e-6894-7674" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="357a-17ce-690f-3226" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                    </entryLink>
+                    <entryLink id="5a87-a832-b8ed-2433" name="Araldyne SR40 Sniper Rifle" hidden="false" targetId="1475-b576-9927-1e1b" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="228e-2f9b-5f00-7afa" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f209-f3b6-c938-64c4" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" costTypeId="db16-c87d-323d-038b" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fd41-b881-1c03-6533" name="SecDef Annihilator Team" hidden="true" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4c75-70db-584b-3727" name="Aerial Insertion" hidden="false" targetId="5b49-3560-87be-ce11" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f2dc-7aed-7ac0-ec87" name="Cover Drill" hidden="false" targetId="6e18-9f49-a406-6c38" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="db16-c87d-323d-038b" value="4">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="fd41-b881-1c03-6533" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="db16-c87d-323d-038b" value="8">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="fd41-b881-1c03-6533" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="a6d4-4ad8-bbcc-81db" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="6fbe-6d35-4315-13ed" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="59b1-815b-255e-8656" name="Anvil" hidden="false" targetId="c70f-ac61-5a64-4551" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b157-388e-5996-7ddc" name="SecDef Sergeant" hidden="false" collective="false" type="model">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="9c9c-7582-f19d-f248" name="SecDef Sergeant" hidden="false" targetId="f0e8-8cfa-2fd8-cdc1" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="634b-f86b-e94d-7313" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd3c-e830-9282-f3e6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="1938-dde1-8933-3f0c" name="Araldyne AR60 Assault Rifle" hidden="false" targetId="67d8-e019-d5d9-78d3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c00-b529-89c2-6b81" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc45-c51b-f9f2-24ad" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d16b-13a0-0442-66c8" name="Araldyne G20 Pistol" hidden="false" targetId="52d1-6564-d178-fdec" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2be-9c5f-09ab-5645" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b9b-cde4-a974-f568" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="5881-69a6-43b1-4bb4" name="SecDef Infantry w/ Chaingun" hidden="false" collective="false" type="model">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="8f77-accc-9c51-a9c0" name="SecDef Infantry" hidden="false" targetId="0f51-dae2-66f0-6b51" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b034-6195-07b3-b99d" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="749a-87dd-6518-0eec" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="a807-2b33-b265-4616" name="Araldyne G20 Pistol" hidden="false" targetId="52d1-6564-d178-fdec" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0920-7e24-6fe1-4fe4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c693-248c-de32-277a" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="40b1-effe-d80f-a17c" name="Araldyne CG100 Chaingun" hidden="false" targetId="9dec-8829-dd2c-8bd0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b2a-9a94-59b9-3776" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70df-b2b7-b08f-9b82" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="692b-7553-4fb0-df99" name="SecDef Infantry" hidden="false" collective="false" type="model">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="d71a-9071-db9c-5846" name="SecDef Infantry" hidden="false" targetId="0f51-dae2-66f0-6b51" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a087-5c04-d107-c139" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccb7-1c4e-47d5-5ccc" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="d933-0602-d08e-85f6" name="Araldyne AR60 Assault Rifle" hidden="false" targetId="67d8-e019-d5d9-78d3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6129-ba3d-55ea-08fc" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eec5-bab5-2f0d-64dd" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c65f-5721-0f04-75ea" name="Araldyne G20 Pistol" hidden="false" targetId="52d1-6564-d178-fdec" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a4d-9b52-dbfc-72ad" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd03-3ef5-17d9-ffa0" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="14.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
@@ -4891,6 +5420,101 @@ Automated Objective: Although a unit, it does not count as one towards any other
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="3.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="67d8-e019-d5d9-78d3" name="Araldyne AR60 Assault Rifle" hidden="false" collective="true" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a3f0-d43c-98be-99f4" name="Araldyne AR60 Assault Rifle" hidden="false" targetId="ae46-4915-cdb4-bdd4" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="52d1-6564-d178-fdec" name="Araldyne G20 Pistol" hidden="false" collective="true" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="775b-e90e-e0e6-7866" name="Araldyne G20 Pistol" hidden="false" targetId="af13-dadb-c98b-0527" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="9dec-8829-dd2c-8bd0" name="Araldyne CG100 Chaingun" hidden="false" collective="true" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="cab6-8798-4f2f-51f1" name="Araldyne CG100 Chaingun" hidden="false" targetId="07f1-c7c1-599f-2820" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="b9c4-e221-de70-fded" name="Araldyne LM14 Machine Gun" hidden="false" collective="true" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9b5b-6457-9c38-2c5e" name="Araldyne LM14 Machine Gun" hidden="false" targetId="17c5-de37-438b-0f53" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="1475-b576-9927-1e1b" name="Araldyne SR40 Sniper Rifle" hidden="false" collective="true" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="883d-26d5-00ea-1041" name="Araldyne SR40 Sniper Rifle" hidden="false" targetId="e9c2-42c0-a7d1-9878" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="f61e-05e2-ffb5-a0e9" name="Micro-drones" hidden="false" collective="false">
@@ -5220,6 +5844,25 @@ Automated Objective: Although a unit, it does not count as one towards any other
       <infoLinks/>
       <modifiers/>
       <description>(squad ability) When this unit completes an Advance &amp; Fire or Dash action, as long as it isn&apos;t on the move or pinned, it may select one friendly Foundation unit within 6&quot; that contains at least half robot models and isn&apos;t on the move itself. The selected unit immediately removes 2D3 STs. This ability cannot be used into or out of a building.</description>
+    </rule>
+    <rule id="5b49-3560-87be-ce11" name="Aerial Insertion" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>(exclusive ability) This unit has the Teleport ability while arriving from reserve. When returning to the game as a reinforcement, this unit may only utilize aerial insertion if you expend 1 command point (from your command point pool).
+Teleport ability:
+A unit performing a Dash main action may replace their double move with a special  teleport move. Teleporting is a dynamic move with the following exceptions:
+● Teleporting models can move any distance, but cannot end the teleport within 6” of an enemy unit, nor can the unit elect to be on the move.
+● If any model ends the teleport touching an obstacle or within area terrain, the unit gains +2D3 STs in addition to any STs the unit might gain for starting or ending its move in dangerous ground.
+● A unit may not teleport in consecutive turns.</description>
+    </rule>
+    <rule id="6e18-9f49-a406-6c38" name="Cover Drill" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>(squad ability) While performing an Advance &amp; Fire main action, this unit may elect to be pinned after it completes its move but before it shoots.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -5764,6 +6407,103 @@ Automated Objective: Although a unit, it does not count as one towards any other
         <characteristic name="FOR" characteristicTypeId="0099-0e19-9d1a-09eb" value="1"/>
         <characteristic name="WP" characteristicTypeId="ed7f-36de-52b3-4a3d" value="3"/>
         <characteristic name="Model type" characteristicTypeId="db37-3912-9d9a-4f5b" value="Infantry (Hover, Robot)"/>
+      </characteristics>
+    </profile>
+    <profile id="f0e8-8cfa-2fd8-cdc1" name="SecDef Sergeant" hidden="false" profileTypeId="051a-8687-d9dc-f6f6" profileTypeName="Model profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="MV" characteristicTypeId="8f34-88f2-7438-3ce1" value="6"/>
+        <characteristic name="EVS" characteristicTypeId="7dda-8964-bbea-4c5d" value="3"/>
+        <characteristic name="SKL" characteristicTypeId="22e9-4178-2115-c4ff" value="4"/>
+        <characteristic name="AV" characteristicTypeId="092f-8cfc-c198-baa3" value="4"/>
+        <characteristic name="MAS" characteristicTypeId="2fb8-2427-e085-37e3" value="2"/>
+        <characteristic name="FOR" characteristicTypeId="0099-0e19-9d1a-09eb" value="1"/>
+        <characteristic name="WP" characteristicTypeId="ed7f-36de-52b3-4a3d" value="4"/>
+        <characteristic name="Model type" characteristicTypeId="db37-3912-9d9a-4f5b" value="Infantry (Human, SecDef, Squad Leader)"/>
+      </characteristics>
+    </profile>
+    <profile id="0f51-dae2-66f0-6b51" name="SecDef Infantry" hidden="false" profileTypeId="051a-8687-d9dc-f6f6" profileTypeName="Model profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="MV" characteristicTypeId="8f34-88f2-7438-3ce1" value="6"/>
+        <characteristic name="EVS" characteristicTypeId="7dda-8964-bbea-4c5d" value="3"/>
+        <characteristic name="SKL" characteristicTypeId="22e9-4178-2115-c4ff" value="4"/>
+        <characteristic name="AV" characteristicTypeId="092f-8cfc-c198-baa3" value="4"/>
+        <characteristic name="MAS" characteristicTypeId="2fb8-2427-e085-37e3" value="2"/>
+        <characteristic name="FOR" characteristicTypeId="0099-0e19-9d1a-09eb" value="1"/>
+        <characteristic name="WP" characteristicTypeId="ed7f-36de-52b3-4a3d" value="3"/>
+        <characteristic name="Model type" characteristicTypeId="db37-3912-9d9a-4f5b" value="Infantry (Human, SecDef)"/>
+      </characteristics>
+    </profile>
+    <profile id="ae46-4915-cdb4-bdd4" name="Araldyne AR60 Assault Rifle" hidden="false" profileTypeId="0063-d0e3-f342-8e26" profileTypeName="Weapon profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="RNG" characteristicTypeId="9323-301d-a90c-af97" value="30&quot;"/>
+        <characteristic name="SHO" characteristicTypeId="59c9-9867-29e6-7329" value="2"/>
+        <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="4"/>
+        <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="1"/>
+        <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1"/>
+      </characteristics>
+    </profile>
+    <profile id="af13-dadb-c98b-0527" name="Araldyne G20 Pistol" hidden="false" profileTypeId="0063-d0e3-f342-8e26" profileTypeName="Weapon profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="RNG" characteristicTypeId="9323-301d-a90c-af97" value="12"/>
+        <characteristic name="SHO" characteristicTypeId="59c9-9867-29e6-7329" value="2"/>
+        <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="4"/>
+        <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="1"/>
+        <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="Pistol"/>
+      </characteristics>
+    </profile>
+    <profile id="07f1-c7c1-599f-2820" name="Araldyne CG100 Chaingun" hidden="false" profileTypeId="0063-d0e3-f342-8e26" profileTypeName="Weapon profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="RNG" characteristicTypeId="9323-301d-a90c-af97" value="30&quot;"/>
+        <characteristic name="SHO" characteristicTypeId="59c9-9867-29e6-7329" value="2"/>
+        <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="6"/>
+        <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="2"/>
+        <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="Burst (6+), Heavy"/>
+      </characteristics>
+    </profile>
+    <profile id="17c5-de37-438b-0f53" name="Araldyne LM14 Machine Gun" hidden="false" profileTypeId="0063-d0e3-f342-8e26" profileTypeName="Weapon profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="RNG" characteristicTypeId="9323-301d-a90c-af97" value="24&quot;"/>
+        <characteristic name="SHO" characteristicTypeId="59c9-9867-29e6-7329" value="2"/>
+        <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="4"/>
+        <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="1"/>
+        <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="Burst (4+)"/>
+      </characteristics>
+    </profile>
+    <profile id="e9c2-42c0-a7d1-9878" name="Araldyne SR40 Sniper Rifle" hidden="false" profileTypeId="0063-d0e3-f342-8e26" profileTypeName="Weapon profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="RNG" characteristicTypeId="9323-301d-a90c-af97" value="30&quot;(48&quot;)"/>
+        <characteristic name="SHO" characteristicTypeId="59c9-9867-29e6-7329" value="2"/>
+        <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="4"/>
+        <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="1"/>
+        <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="Long Ranged (+18&quot;), Sniper (3+)"/>
       </characteristics>
     </profile>
   </sharedProfiles>

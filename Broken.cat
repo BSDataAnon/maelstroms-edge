@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0a23-2860-f7f4-1ea1" name="Broken" revision="9" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0a23-2860-f7f4-1ea1" name="Broken" revision="10" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -834,7 +834,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="2fb8-2427-e085-37e3" value="2 (3)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8c19-f78c-8388-e4ce" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="67e9-6bb1-ff57-ec29" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </infoLink>
         <infoLink id="d482-0a52-0fca-18d8" name="Command (2)" hidden="false" targetId="c57c-c41c-02b2-4195" type="rule">
           <profiles/>
@@ -1021,6 +1029,17 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5d4-4c04-cb2b-eb0e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="67e9-6bb1-ff57-ec29" name="Extensive Cybernetics" hidden="false" targetId="b4a4-c932-2a3d-1182" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="346c-f39f-b75d-56cc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a10d-5c49-d429-cb58" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -1689,7 +1708,19 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
-  <entryLinks/>
+  <entryLinks>
+    <entryLink id="0a5b-cd90-1d22-4569" name="Customized Weapons" hidden="false" targetId="6fab-b2f4-130e-f06f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8462-3c40-edd5-1ded" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2807-fcb5-c1e1-3d17" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="4ae7-0e47-b312-a7d7" name="Slug Rifle" hidden="false" collective="true" type="upgrade">
       <profiles/>
@@ -2600,6 +2631,50 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6fab-b2f4-130e-f06f" name="Customized Weapons" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="9550-3434-86fa-e7ec" name="Customized Weapons" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All weapons this model is equipped with permanently gain +1 PEN, +1 DAM and the Unstable ability (if they don’t already have it). Grenades &amp; CQ Explosives are excluded. </description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b4a4-c932-2a3d-1182" name="Extensive Cybernetics" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="09e4-6cdf-7eb7-b9df" name="Extensive Cybernetics" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model permanently improves its MAS characteristic by +1. </description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="2.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

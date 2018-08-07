@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="404c-f039-33d5-bfb3" name="Epirian Foundation" book="The Epirian Foundation faction book" revision="9" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="404c-f039-33d5-bfb3" name="Epirian Foundation" book="The Epirian Foundation faction book" revision="10" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3463,7 +3463,7 @@ Automated Objective: Although a unit, it does not count as one towards any other
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="915e-dbde-a198-5873" name="Backpack options" hidden="false" collective="false">
+        <selectionEntryGroup id="915e-dbde-a198-5873" name="Backpack options" hidden="false" collective="false" defaultSelectionEntryId="49cf-8c0e-bd8d-73d1">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3760,7 +3760,9 @@ Automated Objective: Although a unit, it does not count as one towards any other
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3815,7 +3817,9 @@ Automated Objective: Although a unit, it does not count as one towards any other
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
@@ -4083,7 +4087,9 @@ Automated Objective: Although a unit, it does not count as one towards any other
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5881-69a6-43b1-4bb4" name="SecDef Infantry w/ Chaingun" hidden="false" collective="false" type="model">
           <profiles/>
@@ -4128,7 +4134,9 @@ Automated Objective: Although a unit, it does not count as one towards any other
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="692b-7553-4fb0-df99" name="SecDef Infantry" hidden="false" collective="false" type="model">
           <profiles/>
@@ -4173,7 +4181,9 @@ Automated Objective: Although a unit, it does not count as one towards any other
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -5437,7 +5447,9 @@ Automated Objective: Although a unit, it does not count as one towards any other
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="52d1-6564-d178-fdec" name="Araldyne G20 Pistol" hidden="false" collective="true" type="upgrade">
       <profiles/>
@@ -5456,7 +5468,9 @@ Automated Objective: Although a unit, it does not count as one towards any other
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9dec-8829-dd2c-8bd0" name="Araldyne CG100 Chaingun" hidden="false" collective="true" type="upgrade">
       <profiles/>
@@ -5475,7 +5489,9 @@ Automated Objective: Although a unit, it does not count as one towards any other
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b9c4-e221-de70-fded" name="Araldyne LM14 Machine Gun" hidden="false" collective="true" type="upgrade">
       <profiles/>
@@ -5494,7 +5510,9 @@ Automated Objective: Although a unit, it does not count as one towards any other
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1475-b576-9927-1e1b" name="Araldyne SR40 Sniper Rifle" hidden="false" collective="true" type="upgrade">
       <profiles/>
@@ -5513,7 +5531,9 @@ Automated Objective: Although a unit, it does not count as one towards any other
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

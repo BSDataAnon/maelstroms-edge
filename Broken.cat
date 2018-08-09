@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0a23-2860-f7f4-1ea1" name="Broken" revision="10" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0a23-2860-f7f4-1ea1" name="Broken" revision="11" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1043,6 +1043,17 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="8482-2f2a-073c-d653" name="Customized Weapons" hidden="false" targetId="6fab-b2f4-130e-f06f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62fe-22b2-d8ed-c6cf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bd0-375d-3b89-8e82" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="8.0"/>
@@ -1708,19 +1719,7 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
-  <entryLinks>
-    <entryLink id="0a5b-cd90-1d22-4569" name="Customized Weapons" hidden="false" targetId="6fab-b2f4-130e-f06f" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8462-3c40-edd5-1ded" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2807-fcb5-c1e1-3d17" type="max"/>
-      </constraints>
-      <categoryLinks/>
-    </entryLink>
-  </entryLinks>
+  <entryLinks/>
   <sharedSelectionEntries>
     <selectionEntry id="4ae7-0e47-b312-a7d7" name="Slug Rifle" hidden="false" collective="true" type="upgrade">
       <profiles/>

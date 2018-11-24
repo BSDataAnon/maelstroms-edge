@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0a23-2860-f7f4-1ea1" name="Broken" revision="12" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0a23-2860-f7f4-1ea1" name="Broken" revision="13" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -536,7 +536,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -1435,6 +1437,7 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ad61-62be-adf0-16c3" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4d69-548c-8ffa-ba3d" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6101-757a-eaec-e9fb" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3be2-0d2c-7948-450d" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1557,6 +1560,7 @@
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6450-1702-76da-3944" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cf72-619b-c06e-7641" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3be2-0d2c-7948-450d" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1597,6 +1601,7 @@
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e101-60b8-19e8-9e9a" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d02f-ffe2-c9a7-154a" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3be2-0d2c-7948-450d" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1710,6 +1715,7 @@
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d02f-ffe2-c9a7-154a" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="20a8-3455-f681-5fb4" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1807,6 +1813,7 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d02f-ffe2-c9a7-154a" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7d5c-ed73-c088-02ba" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9172-dd33-d234-fa35" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="20a8-3455-f681-5fb4" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1852,6 +1859,44 @@
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink id="0ad5-bbd2-7b3c-7b02" name="Degradation (X)" hidden="false" targetId="1873-9f5e-2165-370f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3be2-0d2c-7948-450d" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0bde-c683-01f9-5df2" name="Ind Fire" hidden="false" targetId="cca6-ac32-37e0-70ef" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3be2-0d2c-7948-450d" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier type="set" field="e53d-9728-0e79-841a" value="1">
@@ -1882,7 +1927,7 @@
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="45e9-4063-f3fc-63ca" name="Gnolti (Multi-unit selection)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="45e9-4063-f3fc-63ca" name="Gnolti (Multi-unit selection)" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1949,6 +1994,38 @@
       <costs>
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="77d8-fd77-3848-1088" name="Pa&apos;ku Artillery (Multi-unit selection)" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0e75-528b-4e22-7c16" name="New CategoryLink" hidden="false" targetId="c70f-ac61-5a64-4551" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="c871-f3ec-04d2-4b9d" name="Pa&apos;ku Artillery" hidden="false" targetId="20a8-3455-f681-5fb4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3644-576d-27a2-6a4c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="806c-e719-9765-b328" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
@@ -2628,7 +2705,15 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="cacf-270f-509f-2692" name="New CategoryLink" hidden="false" targetId="c70f-ac61-5a64-4551" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -3271,6 +3356,72 @@
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="1.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="20a8-3455-f681-5fb4" name="Pa&apos;ku Artillery" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ea99-42e3-afa8-99ea" name="Pa&apos;ku" hidden="false" targetId="1cfc-e659-7cf2-f87a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="39da-0aab-cf00-255f" name="Coordinated Barrage (+X)" hidden="false" targetId="e425-9fa6-fb4a-9394" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4d1f-7589-0e9b-9c30" name="New CategoryLink" hidden="false" targetId="c70f-ac61-5a64-4551" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="2d79-bc7f-dcb1-117e" name="Quad EMP Mortar" hidden="false" targetId="3be2-0d2c-7948-450d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="005a-2c7e-6c6c-8d3a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e28f-d211-283e-3d9c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3be2-0d2c-7948-450d" name="Quad EMP Mortar" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7e99-7733-d60d-403e" name="Quad EMP Mortar" hidden="false" targetId="79eb-7ae2-decc-35f1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -3393,6 +3544,20 @@ When putting a Broken infantry unit into reserve before the game, its owning pla
       <modifiers/>
       <description>(squad ability) A unit with this ability can ignore up to 2 hits inflicted upon it during a round of CQ fighting, provided those hits have the Melee ability. Add +1 to a unit&apos;s Deflect ability value for each additional model in the unit that also has the Deflect Ability. A unit that utilizes its Deflect ability to ignore one or more hits cannot also ignore hits via any other method, such as via cover, the Dodge ability or the Field ability.
 Example: A unit containing 3 models with the Deflect (2) ability would be able to ignore up to 4 melee hits from an enemy unit during a round of CQ fighting. </description>
+    </rule>
+    <rule id="1873-9f5e-2165-370f" name="Degradation (-X)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This weapon&apos;s SHO characteristic is reduced by -X for each injury its bearer has suffered.</description>
+    </rule>
+    <rule id="e425-9fa6-fb4a-9394" name="Coordinated Barrage (+2)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit gains +2 SHO to its Ind Fire weapons, provided it is within 6&quot; of a friendly unit that also has the Coordinated Barrage ability and it is also shooting at the same primary target as the friendly unit did during the same turn.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -3763,6 +3928,35 @@ Example: A unit containing 3 models with the Deflect (2) ability would be able t
         <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="+2"/>
         <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="2"/>
         <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="Melee, Relic"/>
+      </characteristics>
+    </profile>
+    <profile id="1cfc-e659-7cf2-f87a" name="Pa&apos;ku" hidden="false" profileTypeId="051a-8687-d9dc-f6f6" profileTypeName="Model profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="MV" characteristicTypeId="8f34-88f2-7438-3ce1" value="4"/>
+        <characteristic name="EVS" characteristicTypeId="7dda-8964-bbea-4c5d" value="1"/>
+        <characteristic name="SKL" characteristicTypeId="22e9-4178-2115-c4ff" value="2"/>
+        <characteristic name="AV" characteristicTypeId="092f-8cfc-c198-baa3" value="3/2"/>
+        <characteristic name="MAS" characteristicTypeId="2fb8-2427-e085-37e3" value="3"/>
+        <characteristic name="FOR" characteristicTypeId="0099-0e19-9d1a-09eb" value="3"/>
+        <characteristic name="WP" characteristicTypeId="ed7f-36de-52b3-4a3d" value="3"/>
+        <characteristic name="Model type" characteristicTypeId="db37-3912-9d9a-4f5b" value="Behemoth (Xeno)"/>
+      </characteristics>
+    </profile>
+    <profile id="79eb-7ae2-decc-35f1" name="Quad EMP Mortar" hidden="false" profileTypeId="0063-d0e3-f342-8e26" profileTypeName="Weapon profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="RNG" characteristicTypeId="9323-301d-a90c-af97" value="36&quot;"/>
+        <characteristic name="SHO" characteristicTypeId="59c9-9867-29e6-7329" value="12*+LB"/>
+        <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="3"/>
+        <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="1"/>
+        <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="AoE(LB), *Degradation (-2), EMP (5+), Heavy, Ind Fire"/>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="404c-f039-33d5-bfb3" name="Epirian Foundation" book="The Epirian Foundation faction book" revision="11" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="404c-f039-33d5-bfb3" name="Epirian Foundation" book="The Epirian Foundation faction book" revision="12" battleScribeVersion="2.01" authorName="Marten" authorContact="medgebattlescribe@gmail.com" gameSystemId="49cd-4f53-908d-4074" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -490,6 +490,7 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="787f-a3c0-d660-e0ed" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4e89-0831-0b42-87a3" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="52d1-6564-d178-fdec" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="887b-08cb-7fc0-ab83" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -520,6 +521,8 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f841-befc-3ab6-0e34" type="lessThan"/>
                     <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c728-f22a-1ba5-da93" type="equalTo"/>
                     <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1880-9f42-c26c-180d" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4895-c7a9-b670-8856" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="887b-08cb-7fc0-ab83" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -593,7 +596,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="2a1c-c9b8-ec25-332f" name="New InfoLink" hidden="false" targetId="b64e-a01b-7e2d-7afe" type="rule">
+        <infoLink id="2a1c-c9b8-ec25-332f" name="Suppress (X)" hidden="false" targetId="b64e-a01b-7e2d-7afe" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -612,6 +615,8 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9a4-38e0-72b8-1472" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ef69-421d-1e0f-8fe8" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5288-c404-94a9-c2ae" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4895-c7a9-b670-8856" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="887b-08cb-7fc0-ab83" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -656,6 +661,7 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9a4-38e0-72b8-1472" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ef69-421d-1e0f-8fe8" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5288-c404-94a9-c2ae" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4895-c7a9-b670-8856" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -697,6 +703,7 @@
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="de16-3202-956c-dd67" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9a4-38e0-72b8-1472" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4895-c7a9-b670-8856" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -740,6 +747,7 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8115-854e-a58b-b7c3" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4c3c-059c-736d-24e5" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4016-a314-9b53-79b8" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="184a-784b-576a-1367" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1024,6 +1032,7 @@
                     <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1880-9f42-c26c-180d" type="equalTo"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="af5b-8525-f706-25d1" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4d77-22fc-b4f0-6da9" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4dea-04e0-bc66-d6ba" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1047,6 +1056,8 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c069-f855-6826-a530" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5c4-f34c-4d09-f44e" type="lessThan"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8488-f5ca-7660-5dbe" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4dea-04e0-bc66-d6ba" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2594-e684-8f0b-a3af" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1182,7 +1193,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="db1a-e26b-5825-d6fb" name="New InfoLink" hidden="false" targetId="fc4f-53e5-d9b2-2b4a" type="rule">
+        <infoLink id="db1a-e26b-5825-d6fb" name="Mobile (designator)" hidden="false" targetId="fc4f-53e5-d9b2-2b4a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1194,6 +1205,7 @@
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5db0-cf2a-ab77-0d5b" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="184a-784b-576a-1367" type="lessThan"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -4607,7 +4619,9 @@ Automated Objective: Although a unit, it does not count as one towards any other
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="1880-9f42-c26c-180d" name="2 linked Cluster Missile Pods" hidden="false" collective="false" type="upgrade">
                       <profiles/>
@@ -5039,7 +5053,9 @@ Automated Objective: Although a unit, it does not count as one towards any other
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="c728-f22a-1ba5-da93" name="2 linked Cluster Missile Pods" hidden="false" collective="false" type="upgrade">
                       <profiles/>
@@ -5484,7 +5500,9 @@ Automated Objective: Although a unit, it does not count as one towards any other
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="8736-905a-7d0f-ebc2" name="Resupply Package" hidden="false" collective="false" type="upgrade">
                       <profiles/>
@@ -5526,6 +5544,294 @@ Automated Objective: Although a unit, it does not count as one towards any other
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="184a-784b-576a-1367" name="SecDef Rapid Intervention Team" hidden="true" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="27d0-7bdf-eae7-73d1" name="Aerial Insertion" hidden="false" targetId="5b49-3560-87be-ce11" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3959-65e6-7623-77dd" name="Dynamic Move" hidden="false" targetId="649e-9049-2d6f-064e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0e6b-31b3-8950-8704" name="Scout" hidden="false" targetId="d91e-c086-b99c-1e28" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ec98-a495-a652-5b99" name="Shock Assault" hidden="false" targetId="0617-bf1d-8fd9-f82d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="db16-c87d-323d-038b" value="4">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="184a-784b-576a-1367" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="db16-c87d-323d-038b" value="8">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="184a-784b-576a-1367" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="a6d4-4ad8-bbcc-81db" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="6fbe-6d35-4315-13ed" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="aada-9e9c-3bda-a4d6" name="New CategoryLink" hidden="false" targetId="92db-6165-172b-1666" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0ae0-e13a-4321-edef" name="SecDef Boostpack Sergeant" hidden="false" collective="false" type="model">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="56d5-b162-8191-5aff" name="SecDef Boostpack Sergeant" hidden="false" targetId="1257-f397-245c-218e" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba52-88fc-c58d-3729" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cf5-78ba-81ff-e85b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2155-d338-1705-50a5" name="2 Linked Araldyne CB22 Assault Carbines" hidden="false" targetId="4dea-04e0-bc66-d6ba" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcf6-fd6d-5370-9f66" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6ea-3ab2-8997-d15d" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="aae5-36fb-dd52-b99a" name="Araldyne Clingfire Grenades" hidden="false" targetId="4895-c7a9-b670-8856" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="374e-c059-a057-bbcb" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0bf-21b8-8a2e-d517" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1eef-8f16-8836-9e7d" name="SecDef Boostpack Infantry (note: +4 pts per model above squad size 3)" hidden="false" collective="false" defaultSelectionEntryId="1d01-7347-9493-bfa3">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd49-4e4b-a680-56ba" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6755-9208-cf6c-a653" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="1d01-7347-9493-bfa3" name="SecDef Boostpack Infantry" hidden="false" collective="false" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="9c45-52b5-97ec-e166" name="SecDef Boostpack Infantry" hidden="false" targetId="5930-4938-1368-a9ad" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="ded6-7a51-e21e-a7ad" name="2 Linked Araldyne CB22 Assault Carbines" hidden="false" targetId="4dea-04e0-bc66-d6ba" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb11-0693-7682-a628" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa46-be1a-1988-6da0" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="a513-c7aa-5e93-a113" name="Araldyne Clingfire Grenades" hidden="false" targetId="4895-c7a9-b670-8856" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f515-fd84-7e5f-4787" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7df-3165-97d5-3e4b" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs/>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="c9d9-e84e-29d1-83c4" name="Max 2 Special Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e564-d1f0-46f9-9a8c" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="94ef-e49c-7dc9-8387" name="SecDef Boostpack Infantry w/ Clingfire Sprayers" hidden="false" collective="false" type="model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="f642-cb21-21c8-565d" name="SecDef Boostpack Infantry" hidden="false" targetId="5930-4938-1368-a9ad" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bffc-b348-f68e-c828" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38e0-8902-cd26-92ef" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="69cb-3811-a8b0-0250" name="2 Linked Araldyne CF13 Clingfire Sprayers" hidden="false" targetId="887b-08cb-7fc0-ab83" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4ff-585e-22b2-e4d8" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7038-5bf0-e6a9-353a" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                    </entryLink>
+                    <entryLink id="d279-0834-ef65-c264" name="Araldyne Clingfire Grenades" hidden="false" targetId="4895-c7a9-b670-8856" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="452d-758c-a8e3-7d90" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5484-95e3-e54e-dbfb" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" costTypeId="db16-c87d-323d-038b" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="ef33-fbe3-a407-c9fd" name="SecDef Boostpack Infantry w/ Flakk Guns" hidden="false" collective="false" type="model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="5466-c76b-14ff-2d10" name="SecDef Boostpack Infantry" hidden="false" targetId="5930-4938-1368-a9ad" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39c4-36ad-762d-5d3f" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4ee-4db2-6e0c-e713" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="c08a-df87-1363-c0a6" name="Araldyne Clingfire Grenades" hidden="false" targetId="4895-c7a9-b670-8856" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61f4-be98-a8c0-1ea7" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79fe-25ed-7ae9-a690" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                    </entryLink>
+                    <entryLink id="e603-638c-9823-d85f" name="2 Linked Araldyne FG19 Flakk Guns" hidden="false" targetId="2594-e684-8f0b-a3af" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60fe-a312-7bfb-27f4" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee5a-d71c-64b1-d330" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" costTypeId="db16-c87d-323d-038b" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="db16-c87d-323d-038b" value="10.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -6871,6 +7177,88 @@ Automated Objective: Although a unit, it does not count as one towards any other
         <cost name="pts" costTypeId="db16-c87d-323d-038b" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4dea-04e0-bc66-d6ba" name="2 Linked Araldyne CB22 Assault Carbines" hidden="false" collective="true" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="90ed-31b5-3ab9-bc46" name="Araldyne CB22 Assault Carbine" hidden="false" targetId="4382-6851-77a3-b708" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="4895-c7a9-b670-8856" name="Araldyne Clingfire Grenades" hidden="false" collective="true" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="09d4-c0f4-68ae-ca9e" name="Araldyne Clingfire Grenades" hidden="false" targetId="425d-87f7-842a-0888" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="887b-08cb-7fc0-ab83" name="2 Linked Araldyne CF13 Clingfire Sprayers" hidden="false" collective="true" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1776-8d7f-bf19-14aa" name="Araldyne CF13 Clingfire Sprayer (std mode)" hidden="false" targetId="8b53-9b10-a1b9-2907" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1b73-1840-bdcd-e2fc" name="Araldyne CF13 Clingfire Sprayer (burst mode)" hidden="false" targetId="1730-a705-e9ff-3804" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="2594-e684-8f0b-a3af" name="2 Linked Araldyne FG19 Flakk Guns" hidden="false" collective="true" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3198-3639-3f05-e697" name="Araldyne FG19 Flakk Gun" hidden="false" targetId="e1d2-b9c9-f26d-039e" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="f61e-05e2-ffb5-a0e9" name="Micro-drones" hidden="false" collective="false">
@@ -7219,6 +7607,13 @@ A unit performing a Dash main action may replace their double move with a specia
       <infoLinks/>
       <modifiers/>
       <description>(squad ability) While performing an Advance &amp; Fire main action, this unit may elect to be pinned after it completes its move but before it shoots.</description>
+    </rule>
+    <rule id="0617-bf1d-8fd9-f82d" name="Shock Assault" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>(squad ability) This unit has the Dodge (2) ability while targeted by enemy defensive fire. </description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -7876,6 +8271,103 @@ A unit performing a Dash main action may replace their double move with a specia
         <characteristic name="FOR" characteristicTypeId="0099-0e19-9d1a-09eb" value="1"/>
         <characteristic name="WP" characteristicTypeId="ed7f-36de-52b3-4a3d" value="1"/>
         <characteristic name="Model type" characteristicTypeId="db37-3912-9d9a-4f5b" value="Infantry (Robot, Slaved)"/>
+      </characteristics>
+    </profile>
+    <profile id="1257-f397-245c-218e" name="SecDef Boostpack Sergeant" hidden="false" profileTypeId="051a-8687-d9dc-f6f6" profileTypeName="Model profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="MV" characteristicTypeId="8f34-88f2-7438-3ce1" value="8"/>
+        <characteristic name="EVS" characteristicTypeId="7dda-8964-bbea-4c5d" value="4"/>
+        <characteristic name="SKL" characteristicTypeId="22e9-4178-2115-c4ff" value="4"/>
+        <characteristic name="AV" characteristicTypeId="092f-8cfc-c198-baa3" value="4"/>
+        <characteristic name="MAS" characteristicTypeId="2fb8-2427-e085-37e3" value="2"/>
+        <characteristic name="FOR" characteristicTypeId="0099-0e19-9d1a-09eb" value="1"/>
+        <characteristic name="WP" characteristicTypeId="ed7f-36de-52b3-4a3d" value="4"/>
+        <characteristic name="Model type" characteristicTypeId="db37-3912-9d9a-4f5b" value="Infantry (Human, Mobile, SecDef, Squad Leader)"/>
+      </characteristics>
+    </profile>
+    <profile id="4382-6851-77a3-b708" name="Araldyne CB22 Assault Carbine" hidden="false" profileTypeId="0063-d0e3-f342-8e26" profileTypeName="Weapon profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="RNG" characteristicTypeId="9323-301d-a90c-af97" value="18&quot;"/>
+        <characteristic name="SHO" characteristicTypeId="59c9-9867-29e6-7329" value="2"/>
+        <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="4"/>
+        <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="1"/>
+        <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="Burst (6+), Short Ranged"/>
+      </characteristics>
+    </profile>
+    <profile id="425d-87f7-842a-0888" name="Araldyne Clingfire Grenades" hidden="false" profileTypeId="0063-d0e3-f342-8e26" profileTypeName="Weapon profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="RNG" characteristicTypeId="9323-301d-a90c-af97" value="6&quot;"/>
+        <characteristic name="SHO" characteristicTypeId="59c9-9867-29e6-7329" value="2+SB"/>
+        <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="4"/>
+        <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="1"/>
+        <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="AoE (SB), Grenade, Ignore Cover, Suppress (D3)"/>
+      </characteristics>
+    </profile>
+    <profile id="5930-4938-1368-a9ad" name="SecDef Boostpack Infantry" hidden="false" profileTypeId="051a-8687-d9dc-f6f6" profileTypeName="Model profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="MV" characteristicTypeId="8f34-88f2-7438-3ce1" value="8"/>
+        <characteristic name="EVS" characteristicTypeId="7dda-8964-bbea-4c5d" value="4"/>
+        <characteristic name="SKL" characteristicTypeId="22e9-4178-2115-c4ff" value="4"/>
+        <characteristic name="AV" characteristicTypeId="092f-8cfc-c198-baa3" value="4"/>
+        <characteristic name="MAS" characteristicTypeId="2fb8-2427-e085-37e3" value="2"/>
+        <characteristic name="FOR" characteristicTypeId="0099-0e19-9d1a-09eb" value="1"/>
+        <characteristic name="WP" characteristicTypeId="ed7f-36de-52b3-4a3d" value="3"/>
+        <characteristic name="Model type" characteristicTypeId="db37-3912-9d9a-4f5b" value="Infantry (Human, Mobile, SecDef)"/>
+      </characteristics>
+    </profile>
+    <profile id="8b53-9b10-a1b9-2907" name="Araldyne CF13 Clingfire Sprayer (std mode)" hidden="false" profileTypeId="0063-d0e3-f342-8e26" profileTypeName="Weapon profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="RNG" characteristicTypeId="9323-301d-a90c-af97" value="8&quot;"/>
+        <characteristic name="SHO" characteristicTypeId="59c9-9867-29e6-7329" value="2+SPR"/>
+        <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="4"/>
+        <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="1"/>
+        <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="AoE (SPR), Suppress (D3)"/>
+      </characteristics>
+    </profile>
+    <profile id="1730-a705-e9ff-3804" name="Araldyne CF13 Clingfire Sprayer (burst mode)" hidden="false" profileTypeId="0063-d0e3-f342-8e26" profileTypeName="Weapon profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="RNG" characteristicTypeId="9323-301d-a90c-af97" value="6&quot;"/>
+        <characteristic name="SHO" characteristicTypeId="59c9-9867-29e6-7329" value="2"/>
+        <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="4"/>
+        <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="1"/>
+        <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="Pistol, Suppress (D3)"/>
+      </characteristics>
+    </profile>
+    <profile id="e1d2-b9c9-f26d-039e" name="Araldyne FG19 Flakk Gun" hidden="false" profileTypeId="0063-d0e3-f342-8e26" profileTypeName="Weapon profile">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="RNG" characteristicTypeId="9323-301d-a90c-af97" value="18&quot;"/>
+        <characteristic name="SHO" characteristicTypeId="59c9-9867-29e6-7329" value="2"/>
+        <characteristic name="PEN" characteristicTypeId="b406-fcb3-9a90-7a93" value="5"/>
+        <characteristic name="DAM" characteristicTypeId="08af-ad31-cd22-7902" value="2"/>
+        <characteristic name="Special" characteristicTypeId="402e-2407-d00a-73c1" value="Short Ranged"/>
       </characteristics>
     </profile>
   </sharedProfiles>
